@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= fontName %> - Siemens Icon Demo</title>
+  <meta name="description" content="Element icon set containing Element themed icons.">
+  <link rel="stylesheet" href="style/<%= fontName %>.min.css">
+  <style>
+    body {
+      font-family: Siemens Sans, Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #2e3e4e;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      max-height: 100px;
+    }
+
+    @media (min-width: 900px) {
+      .navbar-nav>li {
+        float: left;
+      }
+
+      .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      .container {
+        width: 970px;
+      }
+    }
+
+    main {
+      padding-top: 60px;
+    }
+
+
+    @media (max-width: 425px) {
+      .navbar .navbar-item li>a {
+        display: block;
+      }
+
+      main {
+        padding-top: 110px;
+      }
+    }
+
+    .navbar-item {
+      list-style-type: none;
+    }
+
+    .navbar .navbar-item li>a {
+      text-align: left;
+      font-weight: 600;
+      color: #909fae;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+    .navbar-item>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 20px;
+    }
+
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .row {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+
+    .icons-list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .icons {
+      margin: 0 auto;
+    }
+
+    .icons li {
+      float: left;
+      width: 12.5%;
+      height: 115px;
+      padding: 10px;
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: center;
+      background-color: #f9f9f9;
+      border: 1px solid #fff;
+      margin: 5px;
+    }
+
+    .icons i {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-size: 64px;
+    }
+
+    .icons .glyphicon-class {
+      display: block;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    .text-right-sm {
+      text-align: right;
+    }
+
+    .metadata-content {
+      width: 50%;
+      float: left;
+    }
+
+    footer {
+      margin-bottom: 0;
+      overflow: auto;
+      background-color: #f0f0f5;
+      color: #909fae;
+      font-size: 11px;
+      border-top: 1px solid #ccc;
+      padding: 15px;
+    }
+
+    .page-footer a,
+    .page-footer span {
+      display: inline-flex;
+      color: #909fae;
+      text-decoration: none;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" role="navigation">
+    <div class="row">
+      <ul class="navbar-item">
+        <li>
+          <a ui-sref="main.home" href="#">
+            <%= fontName %></a>
+          <a href="https://siemens.siemens.io/">Element Design System</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="icons">
+          <ul class="icons-list">
+            <% _.each(glyphs, function(glyph) { %>
+            <li>
+              <i class="<%= className %>-<%= glyph.name %>" aria-hidden="true"></i>
+              <span class="glyphicon-class">
+                <%= className %>-<%= glyph.name %>
+              </span>
+            </li>
+            <% }); %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="metadata-content">
+          <%= metaData %>
+          <span>
+            <%= fontName %>
+          </span>
+        </div>
+        <div class="text-right-sm">
+          <a href="http://www.siemens.com/corporate-information">Corporate Information</a>
+          <a href="http://www.siemens.com/privacy-notice">Privacy Policy</a>
+          <a href="http://www.siemens.com/terms-of-use">Terms of use</a>
+          <a href="http://www.siemens.com/digital-id">Digital ID</a>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>

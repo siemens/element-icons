@@ -1,0 +1,63 @@
+// <%= metaData %>
+// sass-lint:disable force-pseudo-nesting
+@use 'sass:list';
+
+$font-path: '../fonts' !default;
+$element-fonts-no-woff: false !default;
+
+@function default-font-types() {
+  @if $element-fonts-no-woff {
+    @return (local, otf, ttf);
+  } @else {
+    @return (local, woff, woff2);
+  }
+}
+$element-font-types: default-font-types() !default;
+
+@function make-font-url($map) {
+  $font-list: ();
+  @each $type, $val in $map {
+    @if list.index($element-font-types, $type) {
+      $font-list: list.append($font-list, $val, $separator: comma);
+    }
+  }
+  @return $font-list;
+}
+
+@at-root {
+  $font-types: (
+    woff2: url('#{$font-path}/<%= fontName %>.woff2') format('woff2'),
+    woff: url('#{$font-path}/<%= fontName %>.woff') format('woff'),
+    ttf: url('#{$font-path}/<%= fontName %>.ttf') format('truetype'),
+  );
+  @font-face {
+    font-family: '<%= fontName %>';
+    src: make-font-url($font-types);
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+[class^='<%= className %>-'],
+[class*=' <%= className %>-'] {
+  display: inline-block;
+  font-family: '<%= fontName %>';
+  speak: none;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+  -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
+  // this ensures icons have the correct dimensions even before the icon is loaded and rendered
+  // and thus prevents a layout shift
+  min-width: 1em;
+
+  &::before {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+}
+
+<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>::before { content: '\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>'; }
+<% }); %>
