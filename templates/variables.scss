@@ -1,0 +1,4 @@
+// <%= metaData %>
+
+<% _.each(glyphs, function(glyph) { %>$<%= className %>-<%= glyph.name %>: '\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>';
+<% }); %>

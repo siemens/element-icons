@@ -1,0 +1,28 @@
+# See https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package for more about ignoring files.
+#
+# This file is based on the .gitignore. It differs by not excluding generated
+# files like the dist/ folder.  Keep this file in sync with the .gitignore file.
+
+# NPM/Yarn
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Project specific
+.github/
+assets/
+src/
+templates/
+.editorconfig
+/*.js
+siemens-element-icons.zip
+siemens-element-icons-drawio.zip
+package-lock.json
+dist/index.html
+.prettierignore
+CODEOWNERS
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+.idea
+*.tgz

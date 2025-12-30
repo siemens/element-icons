@@ -1,0 +1,305 @@
+[
+  {
+    "name": "alarm-tick",
+    "terms": ["mark", "check"],
+    "category": "Application"
+  },
+  {
+    "name": "favorites",
+    "terms": ["star", "highlighted"],
+    "category": "Application"
+  },
+  {
+    "name": "2d-editor",
+    "category": "Application"
+  },
+  {
+    "name": "alarm-filled",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "favorites-filled",
+    "terms": ["star", "highlighted"],
+    "category": "Application"
+  },
+  {
+    "name": "out-of-service",
+    "terms": ["unavailable", "prohibited"],
+    "category": "Object states"
+  },
+  {
+    "name": "checked",
+    "terms": ["tick", "selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "not-checked",
+    "terms": ["not selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "radio-checked",
+    "terms": ["recording"],
+    "category": "Object states"
+  },
+  {
+    "name": "checked-filled",
+    "terms": ["tick", "selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "thumbnails",
+    "terms": ["previews", "overview"],
+    "category": "General"
+  },
+  {
+    "name": "menu",
+    "terms": ["hamburger", "navigation"],
+    "category": "General"
+  },
+  {
+    "name": "options",
+    "terms": ["more"],
+    "category": "General"
+  },
+  {
+    "name": "options-vertical",
+    "terms": ["more"],
+    "category": "General"
+  },
+  {
+    "name": "calendar",
+    "terms": ["agenda"],
+    "category": "General"
+  },
+  {
+    "name": "lock",
+    "category": "States"
+  },
+  {
+    "name": "sound-on",
+    "terms": ["audio", "acoustic"],
+    "category": "Media"
+  },
+  {
+    "name": "sound-mute",
+    "terms": ["audio", "acoustic", "silent"],
+    "category": "Media"
+  },
+  {
+    "name": "record-filled",
+    "terms": ["register", "enroll"],
+    "category": "Media"
+  },
+  {
+    "name": "user",
+    "terms": ["person", "profile", "account", "customer", "consumer"],
+    "category": "User"
+  },
+  {
+    "name": "down-2",
+    "category": "Arrows"
+  },
+  {
+    "name": "left-2",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "right-2",
+    "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "left-3",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "right-3",
+    "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "left-4",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "right-4",
+    "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "double-left",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "double-right",
+    "terms": ["skip", "forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "breadcrumb-root",
+    "category": "Arrows"
+  },
+  {
+    "name": "plus",
+    "terms": ["add", "append", "increase", "positive"],
+    "category": "Tools"
+  },
+  {
+    "name": "minus",
+    "terms": ["subtract", "remove", "decrease", "negative"],
+    "category": "Tools"
+  },
+  {
+    "name": "upload",
+    "category": "Tools"
+  },
+  {
+    "name": "zoom",
+    "terms": ["focus", "scale", "bigger", "larger", "expand"],
+    "category": "Tools"
+  },
+  {
+    "name": "pinch",
+    "terms": ["focus", "compress", "scale", "zoom", "smaller"],
+    "category": "Tools"
+  },
+  {
+    "name": "export",
+    "terms": ["transport", "transfer", "transmit", "send", "dispatch"],
+    "category": "Tools"
+  },
+  {
+    "name": "redo",
+    "terms": ["again", "repeat", "retry"],
+    "category": "Tools"
+  },
+  {
+    "name": "ok",
+    "terms": [
+      "successful",
+      "tick",
+      "good",
+      "apply",
+      "check",
+      "agree",
+      "confirm",
+      "done",
+      "accept",
+      "approve",
+      "complete"
+    ],
+    "category": "Tools"
+  },
+  {
+    "name": "cancel",
+    "terms": ["clear", "close", "discard", "erase", "bad"],
+    "category": "Tools"
+  },
+  {
+    "name": "delete",
+    "terms": ["bin", "trash", "garbage", "waste", "discard", "remove", "dispose"],
+    "category": "Tools"
+  },
+  {
+    "name": "back",
+    "terms": ["return", "undo", "revert"],
+    "category": "Tools"
+  },
+  {
+    "name": "help",
+    "terms": ["question mark", "support", "guidance", "aid", "assistance", "guide"],
+    "category": "Tools"
+  },
+  {
+    "name": "search",
+    "terms": ["magnifier", "magnifying glass", "find", "explore"],
+    "category": "Tools"
+  },
+  {
+    "name": "document",
+    "terms": ["file", "paper"],
+    "category": "Tools"
+  },
+  {
+    "name": "show",
+    "terms": ["visible", "eye", "reveal", "display"],
+    "tags": ["eye"],
+    "category": "Tools"
+  },
+  {
+    "name": "hide",
+    "terms": ["invisible", "eye", "conceal", "mask"],
+    "category": "Tools"
+  },
+  {
+    "name": "sort-up",
+    "terms": ["order", "ascending", "rising"],
+    "category": "Tools"
+  },
+  {
+    "name": "sort-down",
+    "terms": ["order", "descending", "falling"],
+    "category": "Tools"
+  },
+  {
+    "name": "warning-filled",
+    "terms": ["danger", "alert", "caution", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "state-tick",
+    "terms": ["yes", "positive", "good", "successful", "apply"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-info",
+    "terms": ["details", "description", "explanation"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-exclamation-mark",
+    "terms": ["mistake", "alert", "error", "signal", "notice"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-question-mark",
+    "terms": ["support", "guidance", "aid"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-progress",
+    "terms": ["development", "progression", "growth"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-pause",
+    "terms": ["stop", "break", "halt"],
+    "category": "Composite States"
+  },
+  {
+    "name": "circle-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "square-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "triangle-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "square-45-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "octagon-filled",
+    "category": "Composite States"
+  }
+]
