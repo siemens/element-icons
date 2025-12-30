@@ -1,0 +1,34 @@
+{
+  "name": "@siemens/element-icons",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Icon set for the Siemens Element design system.",
+  "homepage": "https://github.com/siemens/element-icons#readme",
+  "bugs": {
+    "url": "https://github.com/siemens/element-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/siemens/element-icons.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Siemens AG",
+    "email": "info@siemens.com"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^24.0.0",
+    "yarn": "Please use NPM to install dependencies",
+    "npm": "11"
+  },
+  "prettier": "@siemens/prettier-config",
+  "scripts": {
+    "format": "prettier --log-level warn --write .",
+    "lint:format": "prettier --check ."
+  },
+  "devDependencies": {
+    "@siemens/prettier-config": "4.0.0",
+    "prettier": "3.7.4"
+  }
+}
