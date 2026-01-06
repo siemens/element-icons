@@ -5,12 +5,6 @@ on:
     branches:
       - main
 
-# Stops the workflow run if the PR is updated
-# https://stackoverflow.com/a/72408109
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     uses: ./.github/workflows/build.yaml
