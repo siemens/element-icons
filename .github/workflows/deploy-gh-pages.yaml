@@ -24,14 +24,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist
-          path: site
+          path: dist
 
       - name: Prepare site bundle
         run: |
-          mkdir -p site/public/fonts site/public/style
-          cp site/dist/index.html site/public/index.html
-          cp site/dist/style/siemens-element-icons.min.css site/public/style/
-          cp site/dist/fonts/siemens-element-icons.woff2 site/dist/fonts/siemens-element-icons.woff site/public/fonts/
+          mkdir -p site/fonts site/style
+          cp dist/index.html site/index.html
+          cp dist/style/siemens-element-icons.min.css site/style/
+          cp dist/fonts/siemens-element-icons.woff2 dist/fonts/siemens-element-icons.woff site/fonts/
 
       # Publish the pre-built site bundle to GitHub Pages
       - name: Configure Pages
@@ -40,7 +40,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/public
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deploy
