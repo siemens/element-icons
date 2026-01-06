@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yaml
+
+  publish:
+    runs-on: ubuntu-24.04
+    needs:
+      - build
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.ELEMENT_BOT_GITHUB_TOKEN }}
+      - uses: actions/setup-node@v6
+        with:
+          node-version: lts/krypton
+          cache: 'npm'
+      - uses: actions/download-artifact@v7
+        with:
+          name: dist
+          path: dist
+      - run: npm ci --prefer-offline --no-audit
+      - run: npx semantic-release
+        env:
+          GIT_AUTHOR_NAME: 'Siemens Element Bot'
+          GIT_AUTHOR_EMAIL: 'simpl.si@siemens.com'
+          GIT_COMMITTER_NAME: 'Siemens Element Bot'
+          GIT_COMMITTER_EMAIL: 'simpl.si@siemens.com'
+          GITHUB_TOKEN: ${{ secrets.ELEMENT_BOT_GITHUB_TOKEN }}
