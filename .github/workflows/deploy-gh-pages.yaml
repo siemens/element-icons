@@ -1,0 +1,53 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches:
+      - main
+
+# Stops the workflow run if the PR is updated
+# https://stackoverflow.com/a/72408109
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yaml
+    secrets: inherit
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: site
+
+      - name: Prepare site bundle
+        run: |
+          mkdir -p site/public/fonts site/public/style
+          cp site/dist/index.html site/public/index.html
+          cp site/dist/style/siemens-element-icons.min.css site/public/style/
+          cp site/dist/fonts/siemens-element-icons.woff2 site/dist/fonts/siemens-element-icons.woff site/public/fonts/
+
+      # Publish the pre-built site bundle to GitHub Pages
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
