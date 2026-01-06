@@ -1,6 +1,7 @@
 name: Build
 on:
   pull_request:
+  workflow_call:
 
 # Stops the workflow run if the PR is updated
 # https://stackoverflow.com/a/72408109
