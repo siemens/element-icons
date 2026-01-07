@@ -36,6 +36,10 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs"
     },
+    "./css": "./dist/style/siemens-element-icons.css",
+    "./min-css": "./dist/style/siemens-element-icons.min.css",
+    "./scss": "./dist/style/siemens-element-icons.scss",
+    "./variables-scss": "./dist/style/variables.scss",
     "./*": {
       "default": "./dist/*"
     },
