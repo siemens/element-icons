@@ -19,6 +19,7 @@ jobs:
           node-version: lts/krypton
           cache: 'npm'
       - run: npm ci --prefer-offline --no-audit
+      - run: npm run lint
       - run: npm run lint:format
       - run: npm run build
       - uses: actions/upload-artifact@v6

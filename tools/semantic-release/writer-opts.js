@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import { noteTitleMap, noteTitles, commitTypes } from './config.js';
 
 const COMMIT_HASH_LENGTH = 7;

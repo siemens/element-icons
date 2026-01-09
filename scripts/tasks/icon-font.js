@@ -1,4 +1,9 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import path from 'node:path';
+
 import fs from 'node:fs/promises';
 import svgtofont from 'svgtofont';
 import { ensureDir } from '../lib/fs-utils.js';
