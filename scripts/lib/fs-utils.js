@@ -1,4 +1,9 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import path from 'node:path';
+
 import fs from 'node:fs/promises';
 import { createWriteStream } from 'node:fs';
 import archiver from 'archiver';

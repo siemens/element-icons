@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import fs from 'fs';
 
 const ICON_PATH = 'assets/icons';
@@ -7,7 +11,7 @@ const icons = fs
   .readdirSync(ICON_PATH)
   .filter(i => i.endsWith('.svg'))
   .map(i => i.substring(0, i.length - 4));
-const metadata = JSON.parse(fs.readFileSync(METADATA_PATH)).map(m => m.name);
+const metadata = JSON.parse(fs.readFileSync(METADATA_PATH, 'utf8')).map(m => m.name);
 
 const missingFiles = metadata.filter(icon => !icons.includes(icon));
 if (missingFiles.length > 0) {

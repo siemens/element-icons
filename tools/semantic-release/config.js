@@ -1,4 +1,9 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 // To reorder the types, simply change the order of the items
+
 export const commitTypes = [
   { type: 'feat', section: 'Features' },
   { type: 'fix', section: 'Bug Fixes' },

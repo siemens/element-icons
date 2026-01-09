@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import writerOpts from './tools/semantic-release/writer-opts.js';
 import { commitTypes, releaseRules } from './tools/semantic-release/config.js';
 

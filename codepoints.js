@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) Siemens 2016 - 2026
+ * SPDX-License-Identifier: MIT
+ */
 import fs from 'fs';
 
 const ICON_PATH = 'assets/icons';
