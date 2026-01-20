@@ -1,7 +1,744 @@
 [
   {
+    "name": "ai",
+    "terms": ["artificial intelligence"],
+    "category": "AI"
+  },
+  {
+    "name": "bot",
+    "terms": [
+      "ai",
+      "robot",
+      "automation",
+      "machine",
+      "artificial intelligence",
+      "virtual assistant"
+    ],
+    "category": "AI"
+  },
+  {
+    "name": "chat-bot",
+    "terms": ["ai", "artificial intelligence", "virtual assistant"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-message",
+    "terms": ["artificial intelligence", "chat"],
+    "category": "AI"
+  },
+  {
+    "name": "generate",
+    "terms": ["produce", "create"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-code",
+    "terms": ["artificial intelligence", "code"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-audio-wave",
+    "terms": ["artificial intelligence", "audio", "sound"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-support",
+    "terms": ["artificial intelligence", "support"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-optimize",
+    "terms": ["artificial intelligence", "optimize"],
+    "category": "AI"
+  },
+  {
+    "name": "ai-alt",
+    "terms": ["artificial intelligence"],
+    "category": "AI"
+  },
+  {
+    "name": "self-learning",
+    "terms": ["machine learning", "deep learning"],
+    "category": "AI"
+  },
+  {
+    "name": "temperature",
+    "description": "",
+    "terms": ["degree", "thermometer"],
+    "category": "HVAC"
+  },
+  {
+    "name": "room-temperature",
+    "terms": ["degree", "thermometer", "internal temperature"],
+    "category": "HVAC"
+  },
+  {
+    "name": "outside-temperature",
+    "terms": ["degree", "thermometer", "external temperature"],
+    "category": "HVAC"
+  },
+  {
+    "name": "outside-temperature-alt",
+    "terms": ["degree", "thermometer", "external temperature"],
+    "category": "HVAC"
+  },
+  {
+    "name": "boost-heating",
+    "terms": ["thermometer"],
+    "category": "HVAC"
+  },
+  {
+    "name": "boost-cooling",
+    "terms": ["thermometer"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-boost",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-alt",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-boost-alt",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "cooling",
+    "terms": ["air conditioning"],
+    "category": "HVAC"
+  },
+  {
+    "name": "producer",
+    "category": "HVAC"
+  },
+  {
+    "name": "burner",
+    "terms": ["heater"],
+    "category": "HVAC"
+  },
+  {
+    "name": "dhw",
+    "terms": ["domestic hot water"],
+    "category": "HVAC"
+  },
+  {
+    "name": "dhw-alt",
+    "terms": ["domestic hot water"],
+    "category": "HVAC"
+  },
+  {
+    "name": "humidity",
+    "terms": ["moisture"],
+    "category": "HVAC"
+  },
+  {
+    "name": "water",
+    "terms": ["liquid"],
+    "category": "HVAC"
+  },
+  {
+    "name": "humidity-indoor",
+    "terms": ["moisture"],
+    "category": "HVAC"
+  },
+  {
+    "name": "humidity-outdoor",
+    "terms": ["moisture"],
+    "category": "HVAC"
+  },
+  {
+    "name": "condensation-detection",
+    "terms": ["moisture", "humidity"],
+    "category": "HVAC"
+  },
+  {
+    "name": "waters",
+    "terms": ["liquid", "lakes", "seas", "rivers", "ponds", "streams"],
+    "category": "HVAC"
+  },
+  {
+    "name": "steam",
+    "terms": ["vapor"],
+    "category": "HVAC"
+  },
+  {
+    "name": "blind",
+    "terms": ["shades", "drapes"],
+    "category": "HVAC"
+  },
+  {
+    "name": "slat-blind-angle",
+    "terms": ["slat"],
+    "category": "HVAC"
+  },
+  {
+    "name": "shutter",
+    "category": "HVAC"
+  },
+  {
+    "name": "awning",
+    "terms": ["shade", "sun blinds"],
+    "category": "HVAC"
+  },
+  {
+    "name": "curtain",
+    "category": "HVAC"
+  },
+  {
+    "name": "air",
+    "category": "HVAC"
+  },
+  {
+    "name": "outside-air",
+    "terms": ["external air"],
+    "category": "HVAC"
+  },
+  {
+    "name": "positive-pressure",
+    "category": "HVAC"
+  },
+  {
+    "name": "negative-pressure",
+    "category": "HVAC"
+  },
+  {
+    "name": "indoor-air-quality",
+    "terms": ["IAQ"],
+    "category": "HVAC"
+  },
+  {
+    "name": "outdoor-air-quality",
+    "terms": ["IAQ"],
+    "category": "HVAC"
+  },
+  {
+    "name": "co2",
+    "terms": ["carbon dioxide"],
+    "category": "HVAC"
+  },
+  {
+    "name": "co2-indoor",
+    "terms": ["carbon dioxide"],
+    "category": "HVAC"
+  },
+  {
+    "name": "co2-outdoor",
+    "terms": ["carbon dioxide"],
+    "category": "HVAC"
+  },
+  {
+    "name": "heat-cool-changeover",
+    "category": "HVAC"
+  },
+  {
+    "name": "operatingmode",
+    "terms": ["selector"],
+    "description": "",
+    "category": "HVAC"
+  },
+  {
+    "name": "operatingmode-alt",
+    "terms": ["selector"],
+    "category": "HVAC"
+  },
+  {
+    "name": "prolongation",
+    "terms": ["extension"],
+    "category": "HVAC"
+  },
+  {
+    "name": "optimum-start",
+    "category": "HVAC"
+  },
+  {
+    "name": "optimum-stop",
+    "category": "HVAC"
+  },
+  {
+    "name": "room-temperature-filled",
+    "terms": ["degree", "thermometer", "internal temperature"],
+    "category": "HVAC"
+  },
+  {
+    "name": "outside-temperature-filled",
+    "terms": ["degree", "thermometer", "external temperature"],
+    "category": "HVAC"
+  },
+  {
+    "name": "dhw-filled",
+    "terms": ["domestic hot water"],
+    "category": "HVAC"
+  },
+  {
+    "name": "water-filled",
+    "terms": ["liquid"],
+    "category": "HVAC"
+  },
+  {
+    "name": "humidity-filled",
+    "terms": ["moisture"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-filled",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-boost-filled",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-alt-filled",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "fan-boost-alt-filled",
+    "terms": ["ventilator"],
+    "category": "HVAC"
+  },
+  {
+    "name": "prolongation-filled",
+    "terms": ["extension"],
+    "category": "HVAC"
+  },
+  {
+    "name": "shutter-filled",
+    "category": "HVAC"
+  },
+  {
+    "name": "awning-filled",
+    "terms": ["shade", "sun blinds"],
+    "category": "HVAC"
+  },
+  {
+    "name": "curtain-filled",
+    "category": "HVAC"
+  },
+  {
+    "name": "light",
+    "terms": ["light bulb", "idea"],
+    "category": "Light"
+  },
+  {
+    "name": "light-on",
+    "terms": ["light bulb", "idea"],
+    "category": "Light"
+  },
+  {
+    "name": "dim-up",
+    "terms": ["light bulb"],
+    "category": "Light"
+  },
+  {
+    "name": "dim-down",
+    "terms": ["light bulb"],
+    "category": "Light"
+  },
+  {
+    "name": "light-auto",
+    "terms": ["light bulb", "automation"],
+    "category": "Light"
+  },
+  {
+    "name": "light-rgb-bulb",
+    "terms": ["light color"],
+    "category": "Light"
+  },
+  {
+    "name": "light-color-temperature",
+    "terms": ["light color temperature"],
+    "category": "Light"
+  },
+  {
+    "name": "light-floor",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-desk",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-ceiling",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-wall",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-spot",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-ceiling-alt",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-down",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-rgb",
+    "terms": ["light color"],
+    "category": "Light"
+  },
+  {
+    "name": "light-flash",
+    "category": "Light"
+  },
+  {
+    "name": "light-filled",
+    "terms": ["light bulb", "idea"],
+    "category": "Light"
+  },
+  {
+    "name": "light-on-filled",
+    "terms": ["light bulb", "idea"],
+    "category": "Light"
+  },
+  {
+    "name": "dim-up-filled",
+    "terms": ["light bulb"],
+    "category": "Light"
+  },
+  {
+    "name": "dim-down-filled",
+    "terms": ["light bulb"],
+    "category": "Light"
+  },
+  {
+    "name": "light-auto-filled",
+    "terms": ["light bulb", "automation"],
+    "category": "Light"
+  },
+  {
+    "name": "light-rgb-bulb-filled",
+    "terms": ["light color"],
+    "category": "Light"
+  },
+  {
+    "name": "light-color-temperature-filled",
+    "terms": ["light color temperature"],
+    "category": "Light"
+  },
+  {
+    "name": "light-floor-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-desk-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-ceiling-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-wall-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-spot-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-ceiling-alt-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-down-filled",
+    "terms": ["lamp"],
+    "category": "Light"
+  },
+  {
+    "name": "light-rgb-filled",
+    "terms": ["light color"],
+    "category": "Light"
+  },
+  {
+    "name": "scenes",
+    "terms": ["movie clapper"],
+    "tags": ["scene"],
+    "category": "Scenes"
+  },
+  {
+    "name": "working",
+    "terms": ["office", "desk"],
+    "category": "Scenes"
+  },
+  {
+    "name": "meeting",
+    "terms": ["conference", "collaboration", "teamwork", "group"],
+    "category": "Scenes"
+  },
+  {
+    "name": "reception",
+    "terms": ["information desk"],
+    "category": "Scenes"
+  },
+  {
+    "name": "sleep",
+    "terms": ["bed", "night"],
+    "category": "Scenes"
+  },
+  {
+    "name": "presentation",
+    "terms": ["conference", "lecture", "webinar"],
+    "category": "Scenes"
+  },
+  {
+    "name": "canvas",
+    "terms": ["slate", "screen"],
+    "category": "Scenes"
+  },
+  {
+    "name": "tv",
+    "terms": ["television", "screen"],
+    "category": "Scenes"
+  },
+  {
+    "name": "break",
+    "terms": ["coffee", "pause", "relaxation"],
+    "category": "Scenes"
+  },
+  {
+    "name": "cleaning",
+    "category": "Scenes"
+  },
+  {
+    "name": "party",
+    "terms": ["celebration", "cocktail", "drinks"],
+    "category": "Scenes"
+  },
+  {
+    "name": "dinner",
+    "terms": ["cutlery", "knife", "fork", "meal", "eating", "food"],
+    "category": "Scenes"
+  },
+  {
+    "name": "couch",
+    "terms": ["sofa", "relaxation"],
+    "category": "Scenes"
+  },
+  {
+    "name": "fireplace",
+    "category": "Scenes"
+  },
+  {
+    "name": "holiday",
+    "terms": ["luggage", "suitcase", "vacation", "travel"],
+    "category": "Scenes"
+  },
+  {
+    "name": "do-not-disturb",
+    "terms": ["door hanger", "service"],
+    "category": "Scenes"
+  },
+  {
+    "name": "make-room",
+    "terms": ["door hanger", "service"],
+    "category": "Scenes"
+  },
+  {
+    "name": "service",
+    "terms": ["door hanger"],
+    "category": "Scenes"
+  },
+  {
+    "name": "couch",
+    "terms": ["sofa", "relaxation"],
+    "category": "Residential"
+  },
+  {
+    "name": "fireplace",
+    "category": "Residential"
+  },
+  {
+    "name": "kitchen",
+    "terms": ["pot", "pan", "cooking", "meal"],
+    "category": "Residential"
+  },
+  {
+    "name": "dinner",
+    "terms": ["cutlery", "knife", "fork", "meal", "eating", "food"],
+    "category": "Residential"
+  },
+  {
+    "name": "library",
+    "terms": ["books", "literature", "information"],
+    "category": "Residential"
+  },
+  {
+    "name": "office",
+    "terms": ["chair", "work"],
+    "category": "Residential"
+  },
+  {
+    "name": "sleep",
+    "terms": ["bed", "night"],
+    "category": "Residential"
+  },
+  {
+    "name": "bath",
+    "terms": ["shower"],
+    "category": "Residential"
+  },
+  {
+    "name": "lobby",
+    "terms": ["clothing hanger", "foyer", "entrance hall", "hallway", "wardrobe"],
+    "category": "Residential"
+  },
+  {
+    "name": "winecellar",
+    "terms": ["bottles"],
+    "category": "Residential"
+  },
+  {
+    "name": "garden",
+    "terms": ["flower", "plants"],
+    "category": "Residential"
+  },
+  {
+    "name": "pool",
+    "terms": ["swimming", "bathing"],
+    "category": "Residential"
+  },
+  {
+    "name": "gym",
+    "terms": ["work out", "fitness", "sports", "exercise"],
+    "category": "Residential"
+  },
+  {
+    "name": "basement",
+    "terms": ["cellar"],
+    "category": "Residential"
+  },
+  {
+    "name": "oven-on",
+    "terms": ["baking"],
+    "category": "Residential"
+  },
+  {
+    "name": "oven-off",
+    "terms": ["baking"],
+    "category": "Residential"
+  },
+  {
+    "name": "dishwasher",
+    "category": "Residential"
+  },
+  {
+    "name": "washing-machine",
+    "terms": ["cleaning"],
+    "category": "Residential"
+  },
+  {
+    "name": "fridge",
+    "terms": ["freezer"],
+    "category": "Residential"
+  },
+  {
+    "name": "microwave-on",
+    "category": "Residential"
+  },
+  {
+    "name": "microwave-off",
+    "category": "Residential"
+  },
+  {
+    "name": "fume-on",
+    "terms": ["extractor hood", "range hood"],
+    "category": "Residential"
+  },
+  {
+    "name": "fume-off",
+    "terms": ["extractor hood", "range hood"],
+    "category": "Residential"
+  },
+  {
+    "name": "radiator",
+    "terms": ["heater", "convector"],
+    "category": "Residential"
+  },
+  {
+    "name": "garage-open",
+    "terms": ["car", "parking"],
+    "category": "Residential"
+  },
+  {
+    "name": "garage-closed",
+    "terms": ["car", "parking"],
+    "category": "Residential"
+  },
+  {
+    "name": "fountain-on",
+    "terms": ["water"],
+    "category": "Residential"
+  },
+  {
+    "name": "fountain-off",
+    "terms": ["water"],
+    "category": "Residential"
+  },
+  {
+    "name": "plant",
+    "terms": ["campus", "site"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm-acknowledged",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm-off",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm-background",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
     "name": "alarm-tick",
-    "terms": ["mark", "check"],
+    "terms": ["mark", "ckeck"],
+    "category": "Application"
+  },
+  {
+    "name": "scheduler",
+    "terms": ["clock", "time"],
     "category": "Application"
   },
   {
@@ -10,7 +747,62 @@
     "category": "Application"
   },
   {
-    "name": "2d-editor",
+    "name": "trend",
+    "terms": ["performance", "statistics", "graph", "analytics", "growth chart"],
+    "category": "Application"
+  },
+  {
+    "name": "report",
+    "terms": ["statistics", "documentation", "analytics"],
+    "category": "Application"
+  },
+  {
+    "name": "report-alt",
+    "terms": ["statistics", "documentation", "analytics"],
+    "category": "Application"
+  },
+  {
+    "name": "heat-map",
+    "category": "Application"
+  },
+  {
+    "name": "log",
+    "terms": ["documentation", "record", "archive", "history", "entry"],
+    "category": "Application"
+  },
+  {
+    "name": "diagnostic",
+    "terms": ["ekg", "cardiogram", "heartbeat"],
+    "category": "Application"
+  },
+  {
+    "name": "dashboard",
+    "terms": ["panel", "monitor", "circle chart"],
+    "category": "Application"
+  },
+  {
+    "name": "security",
+    "terms": ["shield", "safety", "protection", "privacy"],
+    "category": "Application"
+  },
+  {
+    "name": "maintenance",
+    "terms": ["wrench", "tool"],
+    "category": "Application"
+  },
+  {
+    "name": "settings",
+    "terms": ["options", "adjustments", "preferences", "gear"],
+    "category": "Application"
+  },
+  {
+    "name": "object-path",
+    "terms": ["flow chart", "process", "diagram", "connection", "mapping", "workflow"],
+    "category": "Application"
+  },
+  {
+    "name": "plant-filled",
+    "terms": ["campus", "site"],
     "category": "Application"
   },
   {
@@ -19,13 +811,106 @@
     "category": "Application"
   },
   {
+    "name": "alarm-off-filled",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm-acknowledged-filled",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "alarm-background-filled",
+    "terms": ["bell", "event"],
+    "category": "Application"
+  },
+  {
+    "name": "scheduler-filled",
+    "terms": ["clock", "time"],
+    "category": "Application"
+  },
+  {
     "name": "favorites-filled",
     "terms": ["star", "highlighted"],
     "category": "Application"
   },
   {
+    "name": "trend-filled",
+    "terms": ["performance", "statistics", "graph", "analytics", "growth chart"],
+    "category": "Application"
+  },
+  {
+    "name": "report-filled",
+    "terms": ["statistics", "documentation", "analytics"],
+    "category": "Application"
+  },
+  {
+    "name": "log-filled",
+    "terms": ["documentation", "record", "archive", "entry"],
+    "category": "Application"
+  },
+  {
+    "name": "diagnostic-filled",
+    "terms": ["ekg", "cardiogram", "heartbeat"],
+    "category": "Application"
+  },
+  {
+    "name": "dashboard-filled",
+    "terms": ["panel", "monitor"],
+    "category": "Application"
+  },
+  {
+    "name": "security-filled",
+    "terms": ["shield", "safety", "protection", "privacy"],
+    "category": "Application"
+  },
+  {
+    "name": "maintenance-filled",
+    "terms": ["wrench", "tool"],
+    "category": "Application"
+  },
+  {
+    "name": "settings-filled",
+    "terms": ["options", "adjustments", "preferences", "gear"],
+    "category": "Application"
+  },
+  {
+    "name": "object-path-filled",
+    "terms": ["flow chart", "process", "diagram", "connection", "mapping", "workflow"],
+    "category": "Application"
+  },
+  {
+    "name": "manual",
+    "terms": ["hand"],
+    "category": "Object states"
+  },
+  {
+    "name": "manual-alt-1",
+    "terms": ["hand"],
+    "category": "Object states"
+  },
+  {
+    "name": "manual-alt-2",
+    "terms": ["hand"],
+    "category": "Object states"
+  },
+  {
+    "name": "manual-alt-3",
+    "terms": ["hand"],
+    "category": "Object states"
+  },
+  {
     "name": "out-of-service",
     "terms": ["unavailable", "prohibited"],
+    "category": "Object states"
+  },
+  {
+    "name": "delay",
+    "category": "Object states"
+  },
+  {
+    "name": "transient",
     "category": "Object states"
   },
   {
@@ -44,9 +929,70 @@
     "category": "Object states"
   },
   {
+    "name": "checkbox-checked",
+    "terms": ["tick", "selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "checkbox-unchecked",
+    "terms": ["not selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "checkbox-partially",
+    "category": "Object states"
+  },
+  {
+    "name": "manual-filled",
+    "terms": ["hand"],
+    "category": "Object states"
+  },
+  {
     "name": "checked-filled",
     "terms": ["tick", "selected"],
     "category": "Object states"
+  },
+  {
+    "name": "checkbox-checked-filled",
+    "terms": ["tick", "selected"],
+    "category": "Object states"
+  },
+  {
+    "name": "network",
+    "category": "Network"
+  },
+  {
+    "name": "network-backbone",
+    "category": "Network"
+  },
+  {
+    "name": "connection",
+    "category": "Network"
+  },
+  {
+    "name": "connection-alt",
+    "category": "Network"
+  },
+  {
+    "name": "router",
+    "category": "Network"
+  },
+  {
+    "name": "router-off",
+    "category": "Network"
+  },
+  {
+    "name": "repeater",
+    "category": "Network"
+  },
+  {
+    "name": "network-port",
+    "category": "Network"
+  },
+  {
+    "name": "home",
+    "terms": ["house"],
+    "category": "General"
   },
   {
     "name": "thumbnails",
@@ -54,8 +1000,36 @@
     "category": "General"
   },
   {
+    "name": "item",
+    "terms": ["object, element"],
+    "category": "General"
+  },
+  {
     "name": "menu",
     "terms": ["hamburger", "navigation"],
+    "category": "General"
+  },
+  {
+    "name": "list",
+    "terms": ["bullet points", "enumeration", "sequence"],
+    "category": "General"
+  },
+  {
+    "name": "jump-to-list-item",
+    "category": "General"
+  },
+  {
+    "name": "view-toggle",
+    "category": "General"
+  },
+  {
+    "name": "queue",
+    "terms": ["waiting list"],
+    "category": "General"
+  },
+  {
+    "name": "parameter",
+    "terms": ["adjustments", "preferences", "customization"],
     "category": "General"
   },
   {
@@ -69,17 +1043,903 @@
     "category": "General"
   },
   {
+    "name": "link",
+    "terms": ["attachment", "url", "path"],
+    "category": "General"
+  },
+  {
+    "name": "link-broken",
+    "terms": ["attachment", "url", "path"],
+    "category": "General"
+  },
+  {
+    "name": "clock",
+    "terms": ["time"],
+    "category": "General"
+  },
+  {
+    "name": "timer",
+    "terms": ["clock", "time"],
+    "category": "General"
+  },
+  {
     "name": "calendar",
     "terms": ["agenda"],
     "category": "General"
+  },
+  {
+    "name": "scheduler-thermostat",
+    "terms": ["temperature"],
+    "category": "General"
+  },
+  {
+    "name": "scheduler-dhw",
+    "terms": ["domestic hot water"],
+    "category": "General"
+  },
+  {
+    "name": "scheduler-fan",
+    "terms": ["ventilator"],
+    "category": "General"
+  },
+  {
+    "name": "date",
+    "category": "General"
+  },
+  {
+    "name": "date-range",
+    "category": "General"
+  },
+  {
+    "name": "recurring",
+    "category": "General"
+  },
+  {
+    "name": "weekday",
+    "category": "General"
+  },
+  {
+    "name": "address-book",
+    "terms": ["contacts"],
+    "category": "General"
+  },
+  {
+    "name": "language",
+    "category": "General"
+  },
+  {
+    "name": "chat",
+    "category": "General"
+  },
+  {
+    "name": "notification",
+    "category": "General"
+  },
+  {
+    "name": "notification-off",
+    "category": "General"
+  },
+  {
+    "name": "notification-unread",
+    "category": "General"
+  },
+  {
+    "name": "message",
+    "terms": ["text", "chat"],
+    "category": "General"
+  },
+  {
+    "name": "box",
+    "category": "General"
+  },
+  {
+    "name": "scalability",
+    "category": "General"
+  },
+  {
+    "name": "quality",
+    "category": "General"
+  },
+  {
+    "name": "rocket",
+    "category": "General"
+  },
+  {
+    "name": "global",
+    "terms": ["worldwide", "international"],
+    "category": "General"
+  },
+  {
+    "name": "legal",
+    "category": "General"
+  },
+  {
+    "name": "filter",
+    "category": "General"
+  },
+  {
+    "name": "key",
+    "category": "General"
+  },
+  {
+    "name": "key-alt",
+    "category": "General"
+  },
+  {
+    "name": "image",
+    "terms": ["photograph", "picture"],
+    "category": "General"
+  },
+  {
+    "name": "palette",
+    "terms": ["colors", "color scheme", "color theme", "painting"],
+    "category": "General"
+  },
+  {
+    "name": "brush",
+    "terms": ["formatting", "painting"],
+    "category": "General"
+  },
+  {
+    "name": "phone",
+    "terms": ["call", "mobile"],
+    "category": "General"
+  },
+  {
+    "name": "money",
+    "terms": ["cash", "finance", "capital", "price", "cost", "currency", "funds", "resources"],
+    "category": "General"
+  },
+  {
+    "name": "money-alt",
+    "terms": [
+      "cash",
+      "coins",
+      "finance",
+      "capital",
+      "price",
+      "cost",
+      "currency",
+      "funds",
+      "resources"
+    ],
+    "category": "General"
+  },
+  {
+    "name": "credit-card",
+    "terms": ["money", "finance", "capital", "price", "cost", "currency", "funds", "resources"],
+    "category": "General"
+  },
+  {
+    "name": "saving",
+    "terms": [
+      "piggy bank",
+      "money",
+      "finance",
+      "capital",
+      "price",
+      "cost",
+      "currency",
+      "funds",
+      "resources"
+    ],
+    "category": "General"
+  },
+  {
+    "name": "horn",
+    "terms": ["acoustic signal", "siren"],
+    "category": "General"
+  },
+  {
+    "name": "horn-off",
+    "terms": ["acoustic signal", "siren"],
+    "category": "General"
+  },
+  {
+    "name": "cloud",
+    "terms": ["remote storage"],
+    "category": "General"
+  },
+  {
+    "name": "cloud-connection-lost",
+    "terms": ["remote storage"],
+    "category": "General"
+  },
+  {
+    "name": "binary",
+    "terms": ["switch", "toggle", "on/off"],
+    "category": "General"
+  },
+  {
+    "name": "multistate",
+    "terms": ["selector"],
+    "category": "General"
+  },
+  {
+    "name": "analog",
+    "terms": ["signal"],
+    "category": "General"
+  },
+  {
+    "name": "analog-manual",
+    "terms": ["signal"],
+    "category": "General"
+  },
+  {
+    "name": "analog-external",
+    "terms": ["signal"],
+    "category": "General"
+  },
+  {
+    "name": "control",
+    "category": "General"
+  },
+  {
+    "name": "control-manual",
+    "category": "General"
+  },
+  {
+    "name": "control-external",
+    "category": "General"
+  },
+  {
+    "name": "status",
+    "category": "General"
+  },
+  {
+    "name": "status-manual",
+    "category": "General"
+  },
+  {
+    "name": "status-external",
+    "category": "General"
+  },
+  {
+    "name": "print",
+    "category": "General"
+  },
+  {
+    "name": "camera",
+    "terms": ["photograph", "picture"],
+    "category": "General"
+  },
+  {
+    "name": "camera-flip",
+    "terms": ["photograph", "picture"],
+    "category": "General"
+  },
+  {
+    "name": "shopping-cart",
+    "terms": ["buy"],
+    "category": "General"
+  },
+  {
+    "name": "train",
+    "category": "General"
+  },
+  {
+    "name": "factory-reset",
+    "category": "General"
+  },
+  {
+    "name": "wiringtest",
+    "category": "General"
+  },
+  {
+    "name": "connection-established",
+    "category": "General"
+  },
+  {
+    "name": "connection-lost",
+    "category": "General"
+  },
+  {
+    "name": "connected",
+    "terms": ["linked", "coupled"],
+    "category": "General"
+  },
+  {
+    "name": "disconnected",
+    "terms": ["linked", "coupled"],
+    "category": "General"
+  },
+  {
+    "name": "programmode",
+    "category": "General"
+  },
+  {
+    "name": "code",
+    "terms": ["coding", "programming"],
+    "category": "General"
+  },
+  {
+    "name": "code-working",
+    "terms": ["coding", "programming"],
+    "category": "General"
+  },
+  {
+    "name": "terminal",
+    "terms": ["console", "shell", "command prompt", "command line"],
+    "category": "General"
+  },
+  {
+    "name": "merge",
+    "terms": ["join"],
+    "category": "General"
+  },
+  {
+    "name": "baseline",
+    "category": "General"
+  },
+  {
+    "name": "baseline-mismatch",
+    "category": "General"
+  },
+  {
+    "name": "backspace",
+    "terms": ["delete"],
+    "category": "General"
+  },
+  {
+    "name": "spacebar",
+    "terms": ["space key", "blank key"],
+    "category": "General"
+  },
+  {
+    "name": "keyboard",
+    "category": "General"
+  },
+  {
+    "name": "inputfield",
+    "category": "General"
+  },
+  {
+    "name": "thumbs-up",
+    "terms": ["like", "upvote", "positive feedback", "approval"],
+    "category": "General"
+  },
+  {
+    "name": "thumbs-down",
+    "terms": ["dislike", "downvote", "negative feedback", "rejection"],
+    "category": "General"
+  },
+  {
+    "name": "send",
+    "terms": ["submit"],
+    "category": "General"
+  },
+  {
+    "name": "alchemy-flask",
+    "terms": ["chemistry", "laboratory", "experiment", "science", "research"],
+    "tags": ["flask", "experimental", "lab", "chemistry"],
+    "category": "General"
+  },
+  {
+    "name": "collaboration",
+    "terms": ["cooperation", "partnership", " teamwork"],
+    "category": "General"
+  },
+  {
+    "name": "corporate-information",
+    "terms": ["corporate contact", "corporate address"],
+    "category": "General"
+  },
+  {
+    "name": "theme-auto",
+    "category": "General"
+  },
+  {
+    "name": "comparison",
+    "category": "General"
+  },
+  {
+    "name": "home-filled",
+    "terms": ["house"],
+    "category": "General"
+  },
+  {
+    "name": "parameter-filled",
+    "terms": ["adjustments", "preferences", "customization"],
+    "category": "General"
+  },
+  {
+    "name": "clock-filled",
+    "terms": ["time"],
+    "category": "General"
+  },
+  {
+    "name": "calendar-filled",
+    "terms": ["agenda"],
+    "category": "General"
+  },
+  {
+    "name": "scheduler-thermostat-filled",
+    "terms": ["temperature"],
+    "category": "General"
+  },
+  {
+    "name": "scheduler-dhw-filled",
+    "terms": ["domestic hot water"],
+    "category": "General"
+  },
+  {
+    "name": "scheduler-fan-filled",
+    "terms": ["ventilator"],
+    "category": "General"
+  },
+  {
+    "name": "address-book-filled",
+    "terms": ["contacts"],
+    "category": "General"
+  },
+  {
+    "name": "language-filled",
+    "category": "General"
+  },
+  {
+    "name": "phone-filled",
+    "terms": ["call", "mobile"],
+    "category": "General"
+  },
+  {
+    "name": "horn-filled",
+    "terms": ["acoustic signal", "siren"],
+    "category": "General"
+  },
+  {
+    "name": "horn-off-filled",
+    "terms": ["acoustic signal", "siren"],
+    "category": "General"
+  },
+  {
+    "name": "notification-filled",
+    "category": "General"
+  },
+  {
+    "name": "message-filled",
+    "terms": ["text", "chat"],
+    "category": "General"
+  },
+  {
+    "name": "cloud-filled",
+    "terms": ["remote storage"],
+    "category": "General"
+  },
+  {
+    "name": "cloud-connection-lost-filled",
+    "terms": ["remote storage"],
+    "category": "General"
+  },
+  {
+    "name": "binary-filled",
+    "terms": ["switch", "toggle", "on/off"],
+    "category": "General"
+  },
+  {
+    "name": "chat-filled",
+    "category": "General"
+  },
+  {
+    "name": "rocket-filled",
+    "category": "General"
+  },
+  {
+    "name": "global-filled",
+    "terms": ["worldwide", "international"],
+    "category": "General"
+  },
+  {
+    "name": "filter-filled",
+    "category": "General"
+  },
+  {
+    "name": "key-filled",
+    "category": "General"
+  },
+  {
+    "name": "key-alt-filled",
+    "category": "General"
+  },
+  {
+    "name": "image-filled",
+    "terms": ["photograph", "picture"],
+    "category": "General"
+  },
+  {
+    "name": "palette-filled",
+    "terms": ["colors", "color scheme", "color theme", "painting"],
+    "category": "General"
+  },
+  {
+    "name": "brush-filled",
+    "terms": ["formatting", "painting"],
+    "category": "General"
+  },
+  {
+    "name": "print-filled",
+    "category": "General"
+  },
+  {
+    "name": "camera-filled",
+    "terms": ["photograph", "picture"],
+    "category": "General"
+  },
+  {
+    "name": "shopping-cart-filled",
+    "terms": ["buy"],
+    "category": "General"
+  },
+  {
+    "name": "wiringtest-filled",
+    "category": "General"
+  },
+  {
+    "name": "connection-established-filled",
+    "category": "General"
+  },
+  {
+    "name": "connection-lost-filled",
+    "category": "General"
+  },
+  {
+    "name": "connected-filled",
+    "terms": ["linked", "coupled"],
+    "category": "General"
+  },
+  {
+    "name": "disconnected-filled",
+    "terms": ["linked", "coupled"],
+    "category": "General"
+  },
+  {
+    "name": "backspace-filled",
+    "terms": ["delete"],
+    "category": "General"
+  },
+  {
+    "name": "keyboard-filled",
+    "category": "General"
+  },
+  {
+    "name": "thumbs-up-filled",
+    "terms": ["like", "upvote", "positive feedback", "approval"],
+    "category": "General"
+  },
+  {
+    "name": "thumbs-down-filled",
+    "terms": ["dislike", "downvote", "negative feedback", "rejection"],
+    "category": "General"
+  },
+  {
+    "name": "send-filled",
+    "terms": ["submit"],
+    "category": "General"
+  },
+  {
+    "name": "collaboration-filled",
+    "terms": ["cooperation", "partnership", " teamwork"],
+    "category": "General"
+  },
+  {
+    "name": "corporate-information-filled",
+    "terms": ["corporate contact", "corporate address"],
+    "category": "General"
+  },
+  {
+    "name": "clock",
+    "terms": ["time"],
+    "tags": ["auto"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "sun",
+    "terms": ["light", "day"],
+    "tags": ["comfort"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "precomfort",
+    "category": "Operating mode"
+  },
+  {
+    "name": "economy",
+    "terms": ["moon", "night", "energy-efficient", "energy saving"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "protection",
+    "terms": ["security", "safety"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "standby",
+    "terms": ["energy-efficient", "energy saving"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "eco",
+    "terms": ["sustainability", "environmentally friendly", "energy-efficient", "energy saving"],
+    "category": "Operating mode"
+  },
+  {
+    "name": "cooling-state",
+    "terms": ["snowflake"],
+    "category": "States"
+  },
+  {
+    "name": "heat",
+    "terms": ["hot"],
+    "category": "States"
+  },
+  {
+    "name": "heating-state",
+    "terms": ["hot", "radiator"],
+    "category": "States"
+  },
+  {
+    "name": "heating-reduced",
+    "terms": ["hot", "radiator"],
+    "category": "States"
+  },
+  {
+    "name": "humidification",
+    "terms": ["moisture", "water"],
+    "category": "States"
+  },
+  {
+    "name": "dehumidification",
+    "terms": ["moisture", "water"],
+    "category": "States"
+  },
+  {
+    "name": "defrost",
+    "terms": ["cold", "freeze"],
+    "category": "States"
   },
   {
     "name": "lock",
     "category": "States"
   },
   {
+    "name": "partlock",
+    "category": "States"
+  },
+  {
+    "name": "unlock",
+    "category": "States"
+  },
+  {
+    "name": "window-open",
+    "category": "States"
+  },
+  {
+    "name": "window-closed",
+    "category": "States"
+  },
+  {
+    "name": "door",
+    "category": "States"
+  },
+  {
+    "name": "door-locked",
+    "category": "States"
+  },
+  {
+    "name": "door-closed",
+    "category": "States"
+  },
+  {
+    "name": "domelight-open",
+    "category": "States"
+  },
+  {
+    "name": "domelight-closed",
+    "category": "States"
+  },
+  {
+    "name": "rooflight-open",
+    "category": "States"
+  },
+  {
+    "name": "rooflight-closed",
+    "category": "States"
+  },
+  {
+    "name": "lock-filled",
+    "category": "States"
+  },
+  {
+    "name": "door-filled",
+    "category": "States"
+  },
+  {
+    "name": "on",
+    "category": "Multistate"
+  },
+  {
+    "name": "off",
+    "category": "Multistate"
+  },
+  {
+    "name": "enable",
+    "category": "Multistate"
+  },
+  {
+    "name": "disable",
+    "category": "Multistate"
+  },
+  {
+    "name": "occupied",
+    "terms": ["taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "unoccupied",
+    "terms": ["not taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "unoccupied-alt",
+    "terms": ["not taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "unoccupied-alt-2",
+    "terms": ["not taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "beamer",
+    "terms": ["projector"],
+    "category": "Multistate"
+  },
+  {
+    "name": "alarm-suppression-on",
+    "terms": ["bell", "event", "silent", "mute"],
+    "category": "Multistate"
+  },
+  {
+    "name": "alarm-suppression-off",
+    "terms": ["bell", "event"],
+    "category": "Multistate"
+  },
+  {
+    "name": "on-filled",
+    "category": "Multistate"
+  },
+  {
+    "name": "off-filled",
+    "category": "Multistate"
+  },
+  {
+    "name": "enable-filled",
+    "category": "Multistate"
+  },
+  {
+    "name": "disable-filled",
+    "category": "Multistate"
+  },
+  {
+    "name": "occupied-filled",
+    "terms": ["taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "unoccupied-filled",
+    "terms": ["not taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "unoccupied-alt-2-filled",
+    "terms": ["not taken"],
+    "category": "Multistate"
+  },
+  {
+    "name": "beamer-filled",
+    "terms": ["projector"],
+    "category": "Multistate"
+  },
+  {
+    "name": "alarm-suppression-on-filled",
+    "terms": ["bell", "event", "silent", "mute"],
+    "category": "Multistate"
+  },
+  {
+    "name": "alarm-suppression-off-filled",
+    "terms": ["bell", "event"],
+    "category": "Multistate"
+  },
+  {
+    "name": "summer",
+    "terms": ["sunshade", "parasol", "season"],
+    "category": "Climate"
+  },
+  {
+    "name": "winter",
+    "terms": ["snowman", "season"],
+    "category": "Climate"
+  },
+  {
+    "name": "sun",
+    "terms": ["light", "day"],
+    "category": "Climate"
+  },
+  {
+    "name": "cloudy",
+    "terms": ["misty", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
+  {
+    "name": "rain",
+    "terms": ["precipitation", "drizzle", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
+  {
+    "name": "storm",
+    "terms": ["lightning", "thunder", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
+  {
+    "name": "wind",
+    "terms": ["breeze", "blow", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
+  {
+    "name": "wind-alt",
+    "terms": ["breeze", "blow", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
+  {
+    "name": "media",
+    "category": "Media"
+  },
+  {
+    "name": "multimedia",
+    "category": "Media"
+  },
+  {
+    "name": "av-system",
+    "terms": ["audio visual", "speaker", "sound", "acoustic", "screen"],
+    "category": "Media"
+  },
+  {
+    "name": "audio",
+    "terms": ["sound", "acoustic", "music", "musical note"],
+    "category": "Media"
+  },
+  {
+    "name": "audio-wave",
+    "terms": ["sound", "acoustic", "music", "audio"],
+    "category": "Media"
+  },
+  {
+    "name": "video",
+    "terms": ["movie", "film", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "video-off",
+    "terms": ["movie", "film", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "voice",
+    "terms": ["microphone", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "voice-off",
+    "terms": ["microphone", "recording"],
+    "category": "Media"
+  },
+  {
     "name": "sound-on",
     "terms": ["audio", "acoustic"],
+    "category": "Media"
+  },
+  {
+    "name": "sound-off",
+    "terms": ["audio", "acoustic", "silent"],
     "category": "Media"
   },
   {
@@ -88,14 +1948,282 @@
     "category": "Media"
   },
   {
+    "name": "play",
+    "terms": ["start", "resume", "continue"],
+    "category": "Media"
+  },
+  {
+    "name": "pause",
+    "terms": ["stop", "break", "halt"],
+    "category": "Media"
+  },
+  {
+    "name": "record",
+    "terms": ["register", "enroll"],
+    "category": "Media"
+  },
+  {
+    "name": "stop",
+    "terms": ["halt", "end"],
+    "category": "Media"
+  },
+  {
+    "name": "recording",
+    "category": "Media"
+  },
+  {
+    "name": "fast-rewind",
+    "terms": ["last", "back", "reverse"],
+    "category": "Media"
+  },
+  {
+    "name": "fast-forward",
+    "terms": ["skip", "next", "speed up"],
+    "category": "Media"
+  },
+  {
+    "name": "begin",
+    "terms": ["start", "rewind", "previous", "back"],
+    "category": "Media"
+  },
+  {
+    "name": "end",
+    "terms": ["next", "skip", "forward"],
+    "category": "Media"
+  },
+  {
+    "name": "shuffle",
+    "terms": ["random"],
+    "category": "Media"
+  },
+  {
+    "name": "repeat",
+    "terms": ["again", "replay", "rerun"],
+    "category": "Media"
+  },
+  {
+    "name": "eject",
+    "terms": ["discharge", "release", "expel"],
+    "category": "Media"
+  },
+  {
+    "name": "media-filled",
+    "category": "Media"
+  },
+  {
+    "name": "multimedia-filled",
+    "category": "Media"
+  },
+  {
+    "name": "av-system-filled",
+    "terms": ["audio visual", "speaker", "sound", "acoustic", "screen"],
+    "category": "Media"
+  },
+  {
+    "name": "audio-filled",
+    "terms": ["sound", "acoustic", "music", "musical note"],
+    "category": "Media"
+  },
+  {
+    "name": "video-filled",
+    "terms": ["movie", "film", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "video-off-filled",
+    "terms": ["movie", "film", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "voice-filled",
+    "terms": ["microphone", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "voice-off-filled",
+    "terms": ["microphone", "recording"],
+    "category": "Media"
+  },
+  {
+    "name": "sound-on-filled",
+    "terms": ["audio", "acoustic"],
+    "category": "Media"
+  },
+  {
+    "name": "sound-off-filled",
+    "terms": ["audio", "acoustic", "silent"],
+    "category": "Media"
+  },
+  {
+    "name": "sound-mute-filled",
+    "terms": ["audio", "acoustic", "silent"],
+    "category": "Media"
+  },
+  {
+    "name": "play-filled",
+    "terms": ["start", "resume", "continue"],
+    "category": "Media"
+  },
+  {
+    "name": "pause-filled",
+    "terms": ["stop", "break", "halt"],
+    "category": "Media"
+  },
+  {
     "name": "record-filled",
     "terms": ["register", "enroll"],
+    "category": "Media"
+  },
+  {
+    "name": "stop-filled",
+    "terms": ["halt", "end"],
+    "category": "Media"
+  },
+  {
+    "name": "fast-rewind-filled",
+    "terms": ["last", "back", "reverse"],
+    "category": "Media"
+  },
+  {
+    "name": "fast-forward-filled",
+    "terms": ["skip", "next", "speed up"],
+    "category": "Media"
+  },
+  {
+    "name": "begin-filled",
+    "terms": ["start", "rewind", "previous", "back"],
+    "category": "Media"
+  },
+  {
+    "name": "end-filled",
+    "terms": ["next", "skip", "forward"],
+    "category": "Media"
+  },
+  {
+    "name": "eject-filled",
+    "terms": ["discharge", "release", "expel"],
     "category": "Media"
   },
   {
     "name": "user",
     "terms": ["person", "profile", "account", "customer", "consumer"],
     "category": "User"
+  },
+  {
+    "name": "users",
+    "terms": ["person", "profile", "account", "customer", "consumer"],
+    "category": "User"
+  },
+  {
+    "name": "account",
+    "terms": ["person", "profile", "user"],
+    "category": "User"
+  },
+  {
+    "name": "badge",
+    "terms": ["identification"],
+    "category": "User"
+  },
+  {
+    "name": "registration",
+    "terms": ["identification", "documentation", "listing", "enrollment"],
+    "category": "User"
+  },
+  {
+    "name": "manager",
+    "terms": ["supervisor", "administrator", "executive", "principal", "director"],
+    "category": "User"
+  },
+  {
+    "name": "installer",
+    "terms": ["builder", "worker", "construction", "maintenance"],
+    "category": "User"
+  },
+  {
+    "name": "technical-operator",
+    "terms": ["builder", "worker", "construction", "maintenance"],
+    "category": "User"
+  },
+  {
+    "name": "engineer",
+    "terms": ["designer", "planner", "builder", "architect"],
+    "category": "User"
+  },
+  {
+    "name": "chimney-sweeper",
+    "category": "User"
+  },
+  {
+    "name": "support",
+    "terms": ["help", "guidance", "assistance", "aid", "guide"],
+    "category": "User"
+  },
+  {
+    "name": "user-group",
+    "terms": ["customers", "consumers", "person", "people"],
+    "category": "User"
+  },
+  {
+    "name": "user-group-alt",
+    "terms": ["customers", "consumers", "person", "people"],
+    "category": "User"
+  },
+  {
+    "name": "add-user",
+    "terms": ["person", "profile", "account", "customer", "consumer", "plus", "register"],
+    "category": "User"
+  },
+  {
+    "name": "suspend-user",
+    "terms": ["person", "profile", "account", "customer", "consumer", "ban", "remove", "prohibit"],
+    "category": "User"
+  },
+  {
+    "name": "activate-user",
+    "terms": ["person", "profile", "account", "customer", "consumer", "initialize", "initiate"],
+    "category": "User"
+  },
+  {
+    "name": "account-filled",
+    "terms": ["person", "profile", "user"],
+    "category": "User"
+  },
+  {
+    "name": "badge-filled",
+    "terms": ["identification"],
+    "category": "User"
+  },
+  {
+    "name": "user-group-filled",
+    "terms": ["customers", "consumers", "person", "people"],
+    "category": "User"
+  },
+  {
+    "name": "user-group-alt-filled",
+    "terms": ["customers", "consumers", "person", "people"],
+    "category": "User"
+  },
+  {
+    "name": "up-1",
+    "category": "Arrows"
+  },
+  {
+    "name": "down-1",
+    "category": "Arrows"
+  },
+  {
+    "name": "left-1",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "right-1",
+    "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "up-2",
+    "category": "Arrows"
   },
   {
     "name": "down-2",
@@ -112,6 +2240,14 @@
     "category": "Arrows"
   },
   {
+    "name": "up-3",
+    "category": "Arrows"
+  },
+  {
+    "name": "down-3",
+    "category": "Arrows"
+  },
+  {
     "name": "left-3",
     "terms": ["backward"],
     "category": "Arrows"
@@ -119,6 +2255,14 @@
   {
     "name": "right-3",
     "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "up-4",
+    "category": "Arrows"
+  },
+  {
+    "name": "down-4",
     "category": "Arrows"
   },
   {
@@ -132,6 +2276,14 @@
     "category": "Arrows"
   },
   {
+    "name": "double-up",
+    "category": "Arrows"
+  },
+  {
+    "name": "double-down",
+    "category": "Arrows"
+  },
+  {
     "name": "double-left",
     "terms": ["backward"],
     "category": "Arrows"
@@ -142,7 +2294,41 @@
     "category": "Arrows"
   },
   {
+    "name": "command-arrow",
+    "category": "Arrows"
+  },
+  {
+    "name": "command-open",
+    "category": "Arrows"
+  },
+  {
+    "name": "command-close",
+    "category": "Arrows"
+  },
+  {
     "name": "breadcrumb-root",
+    "category": "Arrows"
+  },
+  {
+    "name": "up-1-filled",
+    "category": "Arrows"
+  },
+  {
+    "name": "down-1-filled",
+    "category": "Arrows"
+  },
+  {
+    "name": "left-1-filled",
+    "terms": ["backward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "right-1-filled",
+    "terms": ["forward"],
+    "category": "Arrows"
+  },
+  {
+    "name": "command-arrow-filled",
     "category": "Arrows"
   },
   {
@@ -156,7 +2342,57 @@
     "category": "Tools"
   },
   {
+    "name": "reply",
+    "terms": ["answer", "respond", "react", "left"],
+    "category": "Tools"
+  },
+  {
+    "name": "forward",
+    "terms": ["next", "right", "advance"],
+    "category": "Tools"
+  },
+  {
     "name": "upload",
+    "category": "Tools"
+  },
+  {
+    "name": "download",
+    "terms": ["save"],
+    "category": "Tools"
+  },
+  {
+    "name": "brighter",
+    "terms": ["light", "sun", "shine"],
+    "category": "Tools"
+  },
+  {
+    "name": "darker",
+    "terms": ["light", "sun"],
+    "category": "Tools"
+  },
+  {
+    "name": "zoom-in",
+    "terms": ["focus", "scale", "bigger", "larger", "expand"],
+    "category": "Tools"
+  },
+  {
+    "name": "zoom-out",
+    "terms": ["focus", "scale", "smaller"],
+    "category": "Tools"
+  },
+  {
+    "name": "zoom-reset",
+    "terms": ["center", "scale", "normalize", "default", "restore"],
+    "category": "Tools"
+  },
+  {
+    "name": "expand",
+    "terms": ["enlarge"],
+    "category": "Tools"
+  },
+  {
+    "name": "collapse",
+    "terms": ["reduce", "shrink"],
     "category": "Tools"
   },
   {
@@ -170,13 +2406,58 @@
     "category": "Tools"
   },
   {
+    "name": "move",
+    "terms": ["navigate"],
+    "category": "Tools"
+  },
+  {
+    "name": "import",
+    "terms": ["transport", "fetch", "bring", "incorporate"],
+    "category": "Tools"
+  },
+  {
     "name": "export",
     "terms": ["transport", "transfer", "transmit", "send", "dispatch"],
     "category": "Tools"
   },
   {
+    "name": "login",
+    "terms": ["sign in", "access", "username", "password", "entry"],
+    "category": "Tools"
+  },
+  {
+    "name": "logout",
+    "terms": ["sign out", "disconnect", "exit"],
+    "category": "Tools"
+  },
+  {
+    "name": "backup",
+    "terms": ["saved", "history"],
+    "category": "Tools"
+  },
+  {
+    "name": "restore",
+    "terms": ["bring back", "repair", "mend"],
+    "category": "Tools"
+  },
+  {
+    "name": "undo",
+    "terms": ["back", "revert"],
+    "category": "Tools"
+  },
+  {
     "name": "redo",
     "terms": ["again", "repeat", "retry"],
+    "category": "Tools"
+  },
+  {
+    "name": "refresh",
+    "terms": ["update", "synchronize", "reload"],
+    "category": "Tools"
+  },
+  {
+    "name": "synchronize",
+    "terms": ["harmonize", "conform", "align", "coordinate"],
     "category": "Tools"
   },
   {
@@ -202,8 +2483,58 @@
     "category": "Tools"
   },
   {
+    "name": "edit",
+    "terms": ["change", "rewrite", "modify", "alter"],
+    "category": "Tools"
+  },
+  {
+    "name": "edit-bulk",
+    "terms": ["change", "rewrite", "modify", "alter"],
+    "category": "Tools"
+  },
+  {
+    "name": "notes-edit",
+    "terms": ["comment", "entry", "change", "rewrite", "modify", "alter"],
+    "category": "Tools"
+  },
+  {
+    "name": "connector-edit",
+    "terms": ["link", "path", "change", "rewrite", "modify", "alter"],
+    "category": "Tools"
+  },
+  {
+    "name": "save",
+    "terms": ["store", "preserve"],
+    "category": "Tools"
+  },
+  {
     "name": "delete",
     "terms": ["bin", "trash", "garbage", "waste", "discard", "remove", "dispose"],
+    "category": "Tools"
+  },
+  {
+    "name": "copy",
+    "terms": ["duplicate", "replicate"],
+    "category": "Tools"
+  },
+  {
+    "name": "paste",
+    "terms": ["insert", "input"],
+    "category": "Tools"
+  },
+  {
+    "name": "paste-into",
+    "terms": ["insert", "input"],
+    "category": "Tools"
+  },
+  {
+    "name": "cut",
+    "terms": ["scissors", "remove", "delete", "erase", "trim", "snip"],
+    "category": "Tools"
+  },
+  {
+    "name": "return",
+    "terms": ["backward", "undo", "revert"],
     "category": "Tools"
   },
   {
@@ -212,8 +2543,63 @@
     "category": "Tools"
   },
   {
+    "name": "warning",
+    "terms": ["danger", "alert", "caution", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "issue",
+    "terms": ["mistake", "alert", "error", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "security-issue",
+    "terms": ["alert", "error", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "info",
+    "terms": ["details", "description", "explanation"],
+    "category": "Tools"
+  },
+  {
     "name": "help",
     "terms": ["question mark", "support", "guidance", "aid", "assistance", "guide"],
+    "category": "Tools"
+  },
+  {
+    "name": "help-buoy",
+    "terms": ["support", "guidance", "aid", "assistance", "guide"],
+    "category": "Tools"
+  },
+  {
+    "name": "busy",
+    "terms": ["loading"],
+    "category": "Tools"
+  },
+  {
+    "name": "tag",
+    "terms": ["label", "mark", "description"],
+    "category": "Tools"
+  },
+  {
+    "name": "bookmark",
+    "category": "Tools"
+  },
+  {
+    "name": "mark",
+    "terms": ["flag", "important", "highlighted"],
+    "category": "Tools"
+  },
+  {
+    "name": "prime",
+    "terms": ["certificate", "award", "achievement", "honor", "recognition"],
+    "category": "Tools"
+  },
+  {
+    "name": "in-use",
+    "terms": ["occupied", "busy"],
+    "tags": ["occupied"],
     "category": "Tools"
   },
   {
@@ -222,8 +2608,93 @@
     "category": "Tools"
   },
   {
+    "name": "share",
+    "terms": ["send", "upload", "transmit"],
+    "category": "Tools"
+  },
+  {
+    "name": "share-alt",
+    "terms": ["send", "upload", "transmit"],
+    "category": "Tools"
+  },
+  {
+    "name": "send-to",
+    "terms": ["transmit"],
+    "category": "Tools"
+  },
+  {
+    "name": "pin",
+    "terms": ["fix", "attach", "secure", "highlight"],
+    "category": "Tools"
+  },
+  {
+    "name": "unpinned",
+    "terms": ["unfix", "detach", "unfasten"],
+    "category": "Tools"
+  },
+  {
+    "name": "folder",
+    "terms": ["directory", "file", "binder", "archive", "repository"],
+    "category": "Tools"
+  },
+  {
+    "name": "folder-open",
+    "terms": ["directory", "file", "binder", "archive", "repository"],
+    "category": "Tools"
+  },
+  {
+    "name": "archive",
+    "terms": ["registers", "records", "documentation"],
+    "category": "Tools"
+  },
+  {
     "name": "document",
     "terms": ["file", "paper"],
+    "category": "Tools"
+  },
+  {
+    "name": "document-pdf",
+    "terms": ["file", "portable document format"],
+    "category": "Tools"
+  },
+  {
+    "name": "document-zip",
+    "terms": ["file", "data compression"],
+    "category": "Tools"
+  },
+  {
+    "name": "row-add",
+    "terms": ["table", "line", "add", "append", "increase"],
+    "category": "Tools"
+  },
+  {
+    "name": "row-delete",
+    "terms": ["table", "line", "subtract", "remove", "decrease"],
+    "category": "Tools"
+  },
+  {
+    "name": "row-duplicate",
+    "terms": ["table", "line", "copy", "paste", "replicate"],
+    "category": "Tools"
+  },
+  {
+    "name": "row-move",
+    "terms": ["table", "line", "drag", "paste", "drop"],
+    "category": "Tools"
+  },
+  {
+    "name": "column-move",
+    "terms": ["table", "column", "drag", "paste", "drop"],
+    "category": "Tools"
+  },
+  {
+    "name": "mail",
+    "terms": ["messages", "text", "communication", "post", "envelope", "inbox", "letter"],
+    "category": "Tools"
+  },
+  {
+    "name": "attachment",
+    "terms": ["paperclip", "appendage", "annex", "add-on file"],
     "category": "Tools"
   },
   {
@@ -248,13 +2719,1433 @@
     "category": "Tools"
   },
   {
+    "name": "align-left",
+    "category": "Tools"
+  },
+  {
+    "name": "align-horizontal-centers",
+    "category": "Tools"
+  },
+  {
+    "name": "align-right",
+    "category": "Tools"
+  },
+  {
+    "name": "align-top",
+    "category": "Tools"
+  },
+  {
+    "name": "align-vertical-centers",
+    "category": "Tools"
+  },
+  {
+    "name": "align-bottom",
+    "category": "Tools"
+  },
+  {
+    "name": "align-center",
+    "category": "Tools"
+  },
+  {
+    "name": "expand-all",
+    "terms": ["show", "reveal"],
+    "category": "Tools"
+  },
+  {
+    "name": "collapse-all",
+    "terms": ["hide", "conceal"],
+    "category": "Tools"
+  },
+  {
+    "name": "angle",
+    "category": "Tools"
+  },
+  {
+    "name": "height",
+    "terms": ["altitude", "length"],
+    "category": "Tools"
+  },
+  {
+    "name": "ruler",
+    "category": "Tools"
+  },
+  {
+    "name": "convert",
+    "terms": ["change", "transform"],
+    "category": "Tools"
+  },
+  {
+    "name": "online-configuration",
+    "terms": ["arrangement", "layout", "structure"],
+    "category": "Tools"
+  },
+  {
+    "name": "room-3d",
+    "terms": ["three-dimensional"],
+    "category": "Tools"
+  },
+  {
+    "name": "interpolation-linear",
+    "terms": ["statistics", "trend", "prediction", "analysis"],
+    "category": "Tools"
+  },
+  {
+    "name": "interpolation-smooth",
+    "terms": ["statistics", "trend", "prediction", "analysis"],
+    "category": "Tools"
+  },
+  {
+    "name": "interpolation-step",
+    "terms": ["statistics", "trend", "prediction", "analysis"],
+    "category": "Tools"
+  },
+  {
+    "name": "reply-filled",
+    "terms": ["answer", "respond", "react", "left"],
+    "category": "Tools"
+  },
+  {
+    "name": "forward-filled",
+    "terms": ["next", "right", "advance"],
+    "category": "Tools"
+  },
+  {
+    "name": "ok-filled",
+    "terms": ["successful", "tick", "good", "apply"],
+    "category": "Tools"
+  },
+  {
+    "name": "cancel-filled",
+    "terms": ["clear", "close", "discard", "erase", "bad"],
+    "category": "Tools"
+  },
+  {
+    "name": "edit-filled",
+    "terms": ["change", "rewrite", "modify", "alter"],
+    "category": "Tools"
+  },
+  {
+    "name": "delete-filled",
+    "terms": ["bin", "trash", "garbage", "waste", "discard", "remove", "dispose"],
+    "category": "Tools"
+  },
+  {
     "name": "warning-filled",
     "terms": ["danger", "alert", "caution", "signal", "notice"],
     "category": "Tools"
   },
   {
+    "name": "issue-filled",
+    "terms": ["mistake", "alert", "error", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "security-issue-filled",
+    "terms": ["alert", "error", "signal", "notice"],
+    "category": "Tools"
+  },
+  {
+    "name": "info-filled",
+    "terms": ["details", "description", "explanation"],
+    "category": "Tools"
+  },
+  {
+    "name": "help-filled",
+    "terms": ["question mark", "support", "guidance", "aid", "assistance", "guide"],
+    "category": "Tools"
+  },
+  {
+    "name": "tag-filled",
+    "terms": ["label", "mark", "description"],
+    "category": "Tools"
+  },
+  {
+    "name": "bookmark-filled",
+    "category": "Tools"
+  },
+  {
+    "name": "pill-filled",
+    "category": "Tools"
+  },
+  {
+    "name": "mark-filled",
+    "terms": ["flag", "important", "highlighted"],
+    "category": "Tools"
+  },
+  {
+    "name": "prime-filled",
+    "terms": ["certificate", "award", "achievement", "honor", "recognition"],
+    "category": "Tools"
+  },
+  {
+    "name": "share-filled",
+    "terms": ["send", "upload", "transmit"],
+    "category": "Tools"
+  },
+  {
+    "name": "send-to-filled",
+    "terms": ["transmit"],
+    "category": "Tools"
+  },
+  {
+    "name": "pin-filled",
+    "terms": ["fix", "attach", "secure", "highlight"],
+    "category": "Tools"
+  },
+  {
+    "name": "unpinned-filled",
+    "terms": ["unfix", "detach", "unfasten"],
+    "category": "Tools"
+  },
+  {
+    "name": "folder-filled",
+    "terms": ["directory", "file", "binder", "archive", "repository"],
+    "category": "Tools"
+  },
+  {
+    "name": "folder-open-filled",
+    "terms": ["directory", "file", "binder", "archive", "repository"],
+    "category": "Tools"
+  },
+  {
+    "name": "archive-filled",
+    "terms": ["registers", "records", "documentation"],
+    "category": "Tools"
+  },
+  {
+    "name": "document-filled",
+    "terms": ["file", "paper"],
+    "category": "Tools"
+  },
+  {
+    "name": "mail-filled",
+    "terms": ["messages", "text", "communication", "post", "envelope", "inbox", "letter"],
+    "category": "Tools"
+  },
+  {
+    "name": "show-filled",
+    "terms": ["visible", "eye", "reveal", "display"],
+    "tags": ["surveillance"],
+    "category": "Tools"
+  },
+  {
+    "name": "hide-filled",
+    "terms": ["invisible", "eye", "conceal", "mask"],
+    "category": "Tools"
+  },
+  {
+    "name": "room-3d-filled",
+    "terms": ["three-dimensional"],
+    "category": "Tools"
+  },
+  {
+    "name": "row-move-filled",
+    "terms": ["table", "line", "drag", "paste", "drop"],
+    "category": "Tools"
+  },
+  {
+    "name": "column-move-filled",
+    "terms": ["table", "column", "drag", "paste", "drop"],
+    "category": "Tools"
+  },
+  {
+    "name": "location",
+    "terms": ["position", "place"],
+    "category": "Map"
+  },
+  {
+    "name": "geofence",
+    "terms": ["position", "place", "perimeter"],
+    "category": "Map"
+  },
+  {
+    "name": "map-location",
+    "terms": ["position", "place", "chart"],
+    "category": "Map"
+  },
+  {
+    "name": "change-location",
+    "terms": ["alter", "edit", "modify", "position", "place"],
+    "category": "Map"
+  },
+  {
+    "name": "map-arrow",
+    "terms": ["paper airplane", "chart"],
+    "category": "Map"
+  },
+  {
+    "name": "map-arrow-not-available",
+    "terms": ["paper airplane", "chart"],
+    "category": "Map"
+  },
+  {
+    "name": "locate",
+    "terms": ["position", "place"],
+    "category": "Map"
+  },
+  {
+    "name": "distance",
+    "terms": ["span"],
+    "category": "Map"
+  },
+  {
+    "name": "go-to",
+    "terms": ["navigation", "directions", "position", "place"],
+    "category": "Map"
+  },
+  {
+    "name": "compass-needle",
+    "terms": ["directions", "navigation"],
+    "category": "Map"
+  },
+  {
+    "name": "location-filled",
+    "terms": ["position", "place"],
+    "category": "Map"
+  },
+  {
+    "name": "geofence-filled",
+    "terms": ["position", "place", "perimeter"],
+    "category": "Map"
+  },
+  {
+    "name": "map-location-filled",
+    "terms": ["position", "place", "chart"],
+    "category": "Map"
+  },
+  {
+    "name": "map-arrow-filled",
+    "terms": ["paper airplane", "chart"],
+    "category": "Map"
+  },
+  {
+    "name": "fire",
+    "terms": ["flame", "burn", "heat", "blaze"],
+    "category": "Fire"
+  },
+  {
+    "name": "mass-notification",
+    "terms": ["alarm", "alert", "signal", "warning", "siren", "caution"],
+    "category": "Fire"
+  },
+  {
+    "name": "megaphone",
+    "terms": ["speaker"],
+    "category": "Fire"
+  },
+  {
+    "name": "security-cam",
+    "terms": ["camera", "footage", "video", "tapes", "recording"],
+    "category": "Fire"
+  },
+  {
+    "name": "fire-sensor",
+    "terms": ["smoke detection", "fire alarm"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-sound-plate",
+    "terms": ["smoke detection", "fire alarm"],
+    "category": "Fire"
+  },
+  {
+    "name": "combined-signal",
+    "terms": ["visual alarm", "audio alarm"],
+    "category": "Fire"
+  },
+  {
+    "name": "flame-detector",
+    "terms": ["smoke detection", "fire alarm"],
+    "category": "Fire"
+  },
+  {
+    "name": "beam-smoke-detector",
+    "terms": ["smoke detection", "fire alarm"],
+    "category": "Fire"
+  },
+  {
+    "name": "extinguishing",
+    "terms": ["fire", "blaze"],
+    "category": "Fire"
+  },
+  {
+    "name": "manual-fire-sensor",
+    "terms": ["smoke detection", "fire alarm", "hand"],
+    "category": "Fire"
+  },
+  {
+    "name": "intrusion-sensor",
+    "terms": ["invasion alarm", "trespass alert"],
+    "category": "Fire"
+  },
+  {
+    "name": "burglary",
+    "terms": ["burglary"],
+    "category": "Fire"
+  },
+  {
+    "name": "activation",
+    "terms": ["initialization"],
+    "category": "Fire"
+  },
+  {
+    "name": "fault",
+    "terms": ["flaw", "defect", "failing", "error"],
+    "category": "Fire"
+  },
+  {
+    "name": "exclamation-mark",
+    "terms": ["warning", "danger", "caution"],
+    "category": "Fire"
+  },
+  {
+    "name": "alarm-gas",
+    "category": "Fire"
+  },
+  {
+    "name": "pollution",
+    "terms": ["contamination", "dirt"],
+    "category": "Fire"
+  },
+  {
+    "name": "dust",
+    "terms": ["dirt"],
+    "category": "Fire"
+  },
+  {
+    "name": "testplan",
+    "terms": ["trial plan", "experiment plan"],
+    "category": "Fire"
+  },
+  {
+    "name": "self-test",
+    "terms": ["trial plan", "experiment plan", "individual"],
+    "category": "Fire"
+  },
+  {
+    "name": "fire-panel-alt",
+    "category": "Fire"
+  },
+  {
+    "name": "fire-panel",
+    "terms": ["ASD"],
+    "category": "Fire"
+  },
+  {
+    "name": "extension-board",
+    "category": "Fire"
+  },
+  {
+    "name": "topology-line",
+    "category": "Fire"
+  },
+  {
+    "name": "topology-stub",
+    "category": "Fire"
+  },
+  {
+    "name": "task-due",
+    "terms": ["deadlines", "schedule"],
+    "category": "Fire"
+  },
+  {
+    "name": "text-to-speech",
+    "terms": ["speech synthesis", "voice synthesis", "audio synthesis"],
+    "category": "Fire"
+  },
+  {
+    "name": "text-to-speech-mute",
+    "terms": ["speech synthesis", "voice synthesis", "audio synthesis"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester-alt",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester-off",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "fire-filled",
+    "terms": ["flame", "burn", "heat", "blaze"],
+    "category": "Fire"
+  },
+  {
+    "name": "megaphone-filled",
+    "terms": ["speaker"],
+    "category": "Fire"
+  },
+  {
+    "name": "security-cam-filled",
+    "terms": ["camera", "footage", "video", "tapes", "recording"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester-filled",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester-alt-filled",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "detector-tester-off-filled",
+    "terms": ["detector examiner", "sensor validator"],
+    "category": "Fire"
+  },
+  {
+    "name": "power",
+    "terms": ["lightning", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "wind-power",
+    "terms": ["turbine", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "solar-power",
+    "terms": ["sun", "solar panels", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "power-pole",
+    "terms": ["power network", "power distribution", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "overhead-line",
+    "terms": ["power network", "power distribution", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "substation",
+    "terms": ["power network", "power distribution", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "fault-sensor-indicator",
+    "terms": [
+      "power network",
+      "power distribution",
+      "electricity",
+      "flaw",
+      "defect",
+      "failing",
+      "error",
+      "detection"
+    ],
+    "category": "Electricity"
+  },
+  {
+    "name": "fault-collector-gateway",
+    "terms": [
+      "power network",
+      "power distribution",
+      "electricity",
+      "flaw",
+      "defect",
+      "failing",
+      "error",
+      "accumulator"
+    ],
+    "category": "Electricity"
+  },
+  {
+    "name": "transformer",
+    "terms": ["power network", "power distribution", "converter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "motor",
+    "terms": ["engine"],
+    "category": "Electricity"
+  },
+  {
+    "name": "generator",
+    "category": "Electricity"
+  },
+  {
+    "name": "resistor",
+    "category": "Electricity"
+  },
+  {
+    "name": "fuse",
+    "terms": ["circuit breaker"],
+    "category": "Electricity"
+  },
+  {
+    "name": "inductor",
+    "terms": ["coil"],
+    "category": "Electricity"
+  },
+  {
+    "name": "capacitor",
+    "category": "Electricity"
+  },
+  {
+    "name": "feeder",
+    "terms": ["supplier"],
+    "category": "Electricity"
+  },
+  {
+    "name": "feeder-in",
+    "terms": ["supplier"],
+    "category": "Electricity"
+  },
+  {
+    "name": "feeder-out",
+    "terms": ["supplier"],
+    "category": "Electricity"
+  },
+  {
+    "name": "feeder-bidirection",
+    "terms": ["supplier"],
+    "category": "Electricity"
+  },
+  {
+    "name": "switchgear",
+    "terms": ["switchboard"],
+    "category": "Electricity"
+  },
+  {
+    "name": "counter",
+    "terms": ["energy meter", "electricity meter", "kilo watt hours"],
+    "category": "Electricity"
+  },
+  {
+    "name": "watt",
+    "terms": ["power meter"],
+    "tags": ["power-meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "volt",
+    "terms": ["voltage meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "ampere",
+    "terms": ["current meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "volt-ampere",
+    "terms": ["power meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "volt-ampere-reactive",
+    "terms": ["power meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "frequency",
+    "terms": ["hertz", "meter"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery",
+    "terms": ["accumulator", "full"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-medium",
+    "terms": ["accumulator", "sufficient"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-low",
+    "terms": ["accumulator", "depleted"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-empty",
+    "terms": ["accumulator", "discharged"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-charge",
+    "terms": ["accumulator"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-discharge",
+    "terms": ["accumulator", "usage"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-storage",
+    "terms": ["bess"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-swap",
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-ch",
+    "terms": ["outlet", "switzerland", "swiss"],
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-eu",
+    "terms": ["outlet", "europe", "european"],
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-cn",
+    "terms": ["outlet", "china", "chinese"],
+    "category": "Electricity"
+  },
+  {
+    "name": "ground-connection",
+    "terms": ["neutral"],
+    "category": "Electricity"
+  },
+  {
+    "name": "delta-circuit",
+    "category": "Electricity"
+  },
+  {
+    "name": "star-circuit",
+    "category": "Electricity"
+  },
+  {
+    "name": "open-circuit",
+    "category": "Electricity"
+  },
+  {
+    "name": "short-circuit",
+    "category": "Electricity"
+  },
+  {
+    "name": "inductor-primary-iso",
+    "category": "Electricity"
+  },
+  {
+    "name": "inductor-secondary-iso",
+    "category": "Electricity"
+  },
+  {
+    "name": "inductor-primary-ansi",
+    "category": "Electricity"
+  },
+  {
+    "name": "inductor-secondary-ansi",
+    "category": "Electricity"
+  },
+  {
+    "name": "charging-station",
+    "terms": ["charging base", "charging point"],
+    "category": "Electricity"
+  },
+  {
+    "name": "charging-station-limited",
+    "terms": ["charging base", "charging point"],
+    "category": "Electricity"
+  },
+  {
+    "name": "charging-station-off",
+    "terms": ["charging base", "charging point"],
+    "category": "Electricity"
+  },
+  {
+    "name": "charging-station-multiple",
+    "terms": ["charging base", "charging point"],
+    "category": "Electricity"
+  },
+  {
+    "name": "electric-car",
+    "category": "Electricity"
+  },
+  {
+    "name": "electric-car-off",
+    "category": "Electricity"
+  },
+  {
+    "name": "electric-truck",
+    "category": "Electricity"
+  },
+  {
+    "name": "electric-truck-off",
+    "category": "Electricity"
+  },
+  {
+    "name": "contact",
+    "category": "Electricity"
+  },
+  {
+    "name": "contact-closed",
+    "category": "Electricity"
+  },
+  {
+    "name": "circuit-breaker",
+    "category": "Electricity"
+  },
+  {
+    "name": "disconnector",
+    "category": "Electricity"
+  },
+  {
+    "name": "load-disconnector",
+    "category": "Electricity"
+  },
+  {
+    "name": "phasor-management-unit",
+    "category": "Electricity"
+  },
+  {
+    "name": "tapchanger",
+    "category": "Electricity"
+  },
+  {
+    "name": "busbar",
+    "category": "Electricity"
+  },
+  {
+    "name": "busbar-hsbt",
+    "category": "Electricity"
+  },
+  {
+    "name": "power-filled",
+    "terms": ["lightning", "electricity", "energy"],
+    "category": "Electricity"
+  },
+  {
+    "name": "battery-filled",
+    "terms": ["accumulator", "full"],
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-ch-filled",
+    "terms": ["outlet", "switzerland", "swiss"],
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-eu-filled",
+    "terms": ["outlet", "europe", "european"],
+    "category": "Electricity"
+  },
+  {
+    "name": "socket-cn-filled",
+    "terms": ["outlet", "china", "chinese"],
+    "category": "Electricity"
+  },
+  {
+    "name": "charging-station-filled",
+    "terms": ["charging base", "charging point"],
+    "category": "Electricity"
+  },
+  {
+    "name": "project",
+    "terms": ["plan"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "building",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "building-automation",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "smart-home",
+    "terms": ["automation"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "smart-home-alt",
+    "terms": ["automation"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "floor",
+    "terms": ["level"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "room",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "room-segment",
+    "terms": ["room section"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "section",
+    "terms": ["segment", "area", "partition", "division"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "ahu-plant",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "automation-station",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "actuator",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "valve",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "fancoil",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "central-ahu",
+    "terms": ["air handling unit"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "compact-ahu",
+    "terms": ["air handling unit"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vav-box",
+    "terms": ["variable air volume"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "heat-pump",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "floor-heating",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "floor-heating-alt",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrf",
+    "terms": ["variable refrigerant flow"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrv-fan",
+    "terms": ["variable refrigerant volume ventilator"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrv-fix",
+    "terms": ["variable refrigerant volume fix"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrv-swing",
+    "terms": ["variable refrigerant volume swing"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "silent",
+    "terms": ["mute"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "smoking",
+    "terms": ["cigarette", "vaping"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "elevator",
+    "terms": ["lift"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "escalator",
+    "terms": ["moving stairs"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "database",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "data-quality",
+    "terms": ["data accuracy"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "set",
+    "terms": ["collection", "group", "assortment"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "engineered",
+    "terms": ["constructed", "designed", "arranged"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "not-engineered",
+    "terms": ["constructed", "designed", "arranged"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "settings-security",
+    "terms": [
+      "options security",
+      "adjustments security",
+      "preferences security",
+      "settings risk management"
+    ],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "discovered",
+    "terms": ["found", "identified", "detected", "recognized", "located"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "assigned",
+    "terms": ["delegated", "allocated", "designated"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "access-card",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "welcome",
+    "terms": ["greeting", "hand shake"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "qr-code",
+    "terms": ["quick response code"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "scan-qr-code",
+    "terms": ["scan quick response code"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "scope",
+    "terms": ["topic"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "air-filter",
+    "terms": ["air refiner"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "factory",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "production-line",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "industrial-robot",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "electrolysis",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "utilities",
+    "terms": ["electricity", "gas", "sewage water"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "warehouse",
+    "terms": ["store room", "depot", " depository"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "exhibition",
+    "terms": ["display", "showcasing", "exposition", "presentation", "demonstration"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "area-alt",
+    "terms": ["region", "space", "section"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "area",
+    "terms": ["section"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "zone",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "sub-area",
+    "terms": ["region", "zone", "section", "district", "segment"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "group-lead",
+    "terms": [
+      "group master",
+      "team leader",
+      "group coordinator",
+      "chief",
+      "head",
+      "manager",
+      "director"
+    ],
+    "tags": ["group-master"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "group-member",
+    "terms": ["participant", "colleague", "contributor"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "template",
+    "terms": ["model", "pattern", "archetype"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "type",
+    "terms": ["kind", "category", "class", "group", "sort"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "application-function",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "calculated-value",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "config-value",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "process-value",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "control-loop",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "trigger-value",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "physical-input",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "physical-output",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "collection",
+    "terms": ["compilation", "assortment", "set", "series"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "special-object",
+    "terms": ["special item", "special device"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "apps",
+    "terms": ["applications", "softwares", "programs"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "assets",
+    "terms": ["resources"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "wave",
+    "terms": ["hand", "gesture"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "relationship",
+    "terms": ["linkage", "connection"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "function",
+    "terms": ["operator"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "sum",
+    "terms": ["addition"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "project-filled",
+    "terms": ["plan"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "building-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "floor-filled",
+    "terms": ["level"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "actuator-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "automation-station-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "valve-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "group-lead-filled",
+    "terms": [
+      "group master",
+      "team leader",
+      "group coordinator",
+      "chief",
+      "head",
+      "manager",
+      "director"
+    ],
+    "tags": ["group-master-filled"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "group-member-filled",
+    "terms": ["participant", "colleague", "contributor"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrv-fan-filled",
+    "terms": ["variable refrigerant volume ventilator"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "vrf-filled",
+    "terms": ["variable refrigerant flow"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "access-card-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "discovered-filled",
+    "category": "Building Technologies"
+  },
+  {
+    "name": "set-filled",
+    "terms": ["collection", "group", "assortment"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "assets-filled",
+    "terms": ["resources"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "engineered-filled",
+    "terms": ["constructed", "designed", "arranged"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "workstation",
+    "terms": ["vdu", "visual display unit", "monitor", "console"],
+    "category": "Device"
+  },
+  {
+    "name": "laptop",
+    "terms": ["notebook", "portable computer"],
+    "category": "Device"
+  },
+  {
+    "name": "controller",
+    "terms": ["remote control"],
+    "category": "Device"
+  },
+  {
+    "name": "room-unit",
+    "category": "Device"
+  },
+  {
+    "name": "touchpanel",
+    "terms": ["touchscreen", "touch display"],
+    "category": "Device"
+  },
+  {
+    "name": "tablet",
+    "terms": ["pad"],
+    "category": "Device"
+  },
+  {
+    "name": "smartphone",
+    "terms": ["mobile", "handy"],
+    "category": "Device"
+  },
+  {
+    "name": "landscape-to-portrait",
+    "terms": ["horizontal to vertical"],
+    "category": "Device"
+  },
+  {
+    "name": "portrait-to-landscape",
+    "terms": ["vertical to horizontal"],
+    "category": "Device"
+  },
+  {
+    "name": "mobile-commissioning",
+    "terms": ["setup", "nfc"],
+    "category": "Device"
+  },
+  {
+    "name": "wearable",
+    "terms": ["watch", "portable"],
+    "category": "Device"
+  },
+  {
+    "name": "device",
+    "terms": ["tool", "gadget", "appliance"],
+    "category": "Device"
+  },
+  {
+    "name": "device-alt",
+    "terms": ["tool", "gadget", "appliance"],
+    "category": "Device"
+  },
+  {
+    "name": "face-very-happy",
+    "terms": ["very good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-happy",
+    "terms": ["good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-neutral",
+    "terms": ["okay", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-confused",
+    "terms": ["unclear", "puzzled", "perplexed", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-unhappy",
+    "terms": [
+      "bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
+    "category": "Faces"
+  },
+  {
+    "name": "face-very-unhappy",
+    "terms": [
+      "very bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
+    "category": "Faces"
+  },
+  {
+    "name": "face-very-happy-filled",
+    "terms": ["very good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-happy-filled",
+    "terms": ["good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-neutral-filled",
+    "terms": ["okay", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-confused-filled",
+    "terms": ["unclear", "puzzled", "perplexed", "reaction", "emotions", "feelings"],
+    "category": "Faces"
+  },
+  {
+    "name": "face-unhappy-filled",
+    "terms": [
+      "bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
+    "category": "Faces"
+  },
+  {
+    "name": "face-very-unhappy-filled",
+    "terms": [
+      "very bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
+    "category": "Faces"
+  },
+  {
     "name": "state-tick",
     "terms": ["yes", "positive", "good", "successful", "apply"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-close",
+    "terms": ["no", "negative", "bad", "clear", "cancel"],
     "category": "Composite States"
   },
   {
@@ -273,6 +4164,16 @@
     "category": "Composite States"
   },
   {
+    "name": "state-plus",
+    "terms": ["add", "append", "increase", "positive"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-minus",
+    "terms": ["subtract", "remove", "decrease", "negative"],
+    "category": "Composite States"
+  },
+  {
     "name": "state-progress",
     "terms": ["development", "progression", "growth"],
     "category": "Composite States"
@@ -280,6 +4181,54 @@
   {
     "name": "state-pause",
     "terms": ["stop", "break", "halt"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-very-happy",
+    "terms": ["very good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-happy",
+    "terms": ["good", "content", "pleased", "satisfied", "reaction", "emotions", "feelings"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-neutral",
+    "terms": ["okay", "reaction", "emotions", "feelings"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-confused",
+    "terms": ["unclear", "puzzled", "perplexed", "reaction", "emotions", "feelings"],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-unhappy",
+    "terms": [
+      "bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
+    "category": "Composite States"
+  },
+  {
+    "name": "state-face-very-unhappy",
+    "terms": [
+      "very bad",
+      "discontented",
+      "displeased",
+      "dissatisfied",
+      "disappointed",
+      "reaction",
+      "emotions",
+      "feelings"
+    ],
     "category": "Composite States"
   },
   {
@@ -301,5 +4250,323 @@
   {
     "name": "octagon-filled",
     "category": "Composite States"
+  },
+  {
+    "name": "shield-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "cloud-filled",
+    "category": "Composite States"
+  },
+  {
+    "name": "house-filled",
+    "terms": ["home"],
+    "category": "Composite States"
+  },
+  {
+    "name": "validation-success",
+    "terms": ["approval", "confirmation"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-issue",
+    "terms": ["error", "problem"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-critical",
+    "terms": ["problematic"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-warning",
+    "terms": ["danger"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-caution",
+    "terms": ["danger"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-information",
+    "terms": ["details", "description", "explanation"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-question-mark",
+    "terms": ["support", "guidance", "aid"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-success-filled",
+    "terms": ["approval", "confirmation"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-issue-filled",
+    "terms": ["error", "problem"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-critical-filled",
+    "terms": ["problematic"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-warning-filled",
+    "terms": ["danger"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-caution-filled",
+    "terms": ["danger"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-information-filled",
+    "terms": ["details", "description", "explanation"],
+    "category": "Validation"
+  },
+  {
+    "name": "validation-question-mark-filled",
+    "terms": ["support", "guidance", "aid"],
+    "category": "Validation"
+  },
+  {
+    "name": "layout-fullscreen",
+    "terms": ["big screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-vertical",
+    "terms": ["portrait"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-horizontal",
+    "terms": ["landscape"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-1",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-2",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-2-right",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-3",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-3-alt",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-4",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-4-bottom",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-pane-5",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-statusbar-small",
+    "terms": ["canvas", "screen", "taskbar"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-statusbar-large",
+    "terms": ["canvas", "screen", "taskbar"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-send-to-primary",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-send-to-secondary",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-send-to-manual",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-fullscreen-filled",
+    "terms": ["big screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-vertical-filled",
+    "terms": ["portrait"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-horizontal-filled",
+    "terms": ["landscape"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-send-to-primary-filled",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "layout-send-to-secondary-filled",
+    "terms": ["canvas", "screen"],
+    "category": "Screen Layout"
+  },
+  {
+    "name": "heart-rate-monitor",
+    "terms": ["cardiac monitor", "electrocardiogram", "ecg"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "hospital-bed",
+    "category": "Healthcare"
+  },
+  {
+    "name": "ultrasound-scanner",
+    "terms": ["sonogram", "echography"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "wheelchair",
+    "terms": ["mobility aid"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "accessible",
+    "terms": ["disability", "impairment"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "stethoscope",
+    "category": "Healthcare"
+  },
+  {
+    "name": "surgical-mask",
+    "terms": ["face mask", "hygiene mask", "medical mask"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "medical-gas",
+    "category": "Healthcare"
+  },
+  {
+    "name": "3d-fit",
+    "category": "3D"
+  },
+  {
+    "name": "3d-rotate",
+    "category": "3D"
+  },
+  {
+    "name": "3d-y-axis",
+    "category": "3D"
+  },
+  {
+    "name": "3d-z-axis",
+    "category": "3D"
+  },
+  {
+    "name": "3d-front",
+    "category": "3D"
+  },
+  {
+    "name": "3d-back",
+    "category": "3D"
+  },
+  {
+    "name": "3d-top",
+    "category": "3D"
+  },
+  {
+    "name": "3d-bottom",
+    "category": "3D"
+  },
+  {
+    "name": "3d-left",
+    "category": "3D"
+  },
+  {
+    "name": "3d-right",
+    "category": "3D"
+  },
+  {
+    "name": "emergency-phone",
+    "terms": ["sos", "distress call"],
+    "category": "Pharma"
+  },
+  {
+    "name": "escape-left",
+    "terms": ["exit left"],
+    "category": "Pharma"
+  },
+  {
+    "name": "escape-right",
+    "terms": ["exit right"],
+    "category": "Pharma"
+  },
+  {
+    "name": "radioactive",
+    "category": "Pharma"
+  },
+  {
+    "name": "biological-hazard",
+    "terms": ["health hazard", "biological threat", "biological risk"],
+    "category": "Pharma"
+  },
+  {
+    "name": "explosive-atmosphere",
+    "terms": ["flammable atmosphere"],
+    "category": "Pharma"
+  },
+  {
+    "name": "gas-bottles",
+    "category": "Pharma"
+  },
+  {
+    "name": "respiratory",
+    "terms": ["breathing", "inhalation", "ventilatory"],
+    "category": "Pharma"
+  },
+  {
+    "name": "eye-protection",
+    "terms": ["glasses", "safety goggles"],
+    "category": "Pharma"
+  },
+  {
+    "name": "breathing-protection",
+    "terms": ["respiratory protection", "lung protection"],
+    "category": "Pharma"
+  },
+  {
+    "name": "no-access",
+    "terms": ["entrance prohibited", "no entry", "restricted access"],
+    "category": "Pharma"
   }
 ]
