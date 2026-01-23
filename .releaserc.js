@@ -61,7 +61,11 @@ export default {
     [
       '@semantic-release/github',
       {
-        successComment: false
+        successComment: false,
+        assets: [
+          { path: 'dist/siemens-element-icons.zip' },
+          { path: 'dist/siemens-element-icons-drawio.zip' }
+        ]
       }
     ]
   ]
