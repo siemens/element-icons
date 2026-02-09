@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/siemens/element-icons/compare/v1.0.0...v1.0.1) (2026-02-09)
+
+
+### Bug Fixes
+
+* add icon and drawio zip files to the release ([3ece086](https://github.com/siemens/element-icons/commit/3ece086e7ea5660f6404444162c5af948e27c967))
+* allow npm package to be installed with any engine ([cf23686](https://github.com/siemens/element-icons/commit/cf236865b80a249768b04b0e07c3f0a384d420d6))
+
 # 1.0.0 (2026-01-21)
 
 
