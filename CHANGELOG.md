@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/siemens/element-icons/compare/v1.0.1...v1.0.2) (2026-02-10)
+
+
+### Bug Fixes
+
+* remove engine constraints ([4c8815f](https://github.com/siemens/element-icons/commit/4c8815fa2e0beb0697b3cb00ba94584b226fed5e))
+
 ## [1.0.1](https://github.com/siemens/element-icons/compare/v1.0.0...v1.0.1) (2026-02-09)
 
 
