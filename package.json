@@ -19,10 +19,6 @@
     "access": "public"
   },
   "type": "module",
-  "engines": {
-    "node": "^24.0.0",
-    "npm": "11"
-  },
   "prettier": "@siemens/prettier-config",
   "scripts": {
     "build": "node scripts/build.js",
