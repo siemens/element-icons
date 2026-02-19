@@ -2515,6 +2515,11 @@
     "category": "Tools"
   },
   {
+    "name": "last-modified",
+    "terms": ["modify", "last updated", "last changed"],
+    "category": "Tools"
+  },
+  {
     "name": "connector-edit",
     "terms": ["link", "path", "change", "rewrite", "modify", "alter"],
     "category": "Tools"
@@ -2667,6 +2672,11 @@
   {
     "name": "document",
     "terms": ["file", "paper"],
+    "category": "Tools"
+  },
+  {
+    "name": "documents",
+    "terms": ["file", "version", "collection", "multiple", "group"],
     "category": "Tools"
   },
   {
@@ -3536,6 +3546,9 @@
     "name": "busbar-hsbt",
     "category": "Electricity"
   },
+  { "name": "converter", "category": "Electricity" },
+  { "name": "inverter", "category": "Electricity" },
+  { "name": "hybrid-inverter", "category": "Electricity" },
   {
     "name": "power-filled",
     "terms": ["lightning", "electricity", "energy"],
@@ -3603,6 +3616,8 @@
     "terms": ["room section"],
     "category": "Building Technologies"
   },
+  { "name": "room-coordinator", "category": "Building Technologies" },
+  { "name": "room-equipment", "category": "Building Technologies" },
   {
     "name": "section",
     "terms": ["segment", "area", "partition", "division"],
