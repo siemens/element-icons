@@ -492,6 +492,7 @@
     "terms": ["office", "desk"],
     "category": "Scenes"
   },
+  { "name": "desk", "terms": ["office"], "category": "Scenes" },
   {
     "name": "meeting",
     "terms": ["conference", "collaboration", "teamwork", "group"],
@@ -599,6 +600,12 @@
     "terms": ["chair", "work"],
     "category": "Residential"
   },
+  { "name": "childrenroom", "terms": ["nursery"], "category": "Residential" },
+  {
+    "name": "control-cabinet",
+    "terms": ["equipment room", "utility room"],
+    "category": "Residential"
+  },
   {
     "name": "sleep",
     "terms": ["bed", "night"],
@@ -614,6 +621,8 @@
     "terms": ["clothing hanger", "foyer", "entrance hall", "hallway", "wardrobe"],
     "category": "Residential"
   },
+  { "name": "restroom", "terms": ["toilet"], "category": "Residential" },
+  { "name": "toilet-paper", "terms": ["toilet"], "category": "Residential" },
   {
     "name": "winecellar",
     "terms": ["bottles"],
@@ -1098,6 +1107,8 @@
     "name": "weekday",
     "category": "General"
   },
+  { "name": "booked", "category": "General" },
+  { "name": "booking-overview", "category": "General" },
   {
     "name": "address-book",
     "terms": ["contacts"],
@@ -1432,6 +1443,8 @@
     "name": "comparison",
     "category": "General"
   },
+  { "name": "hexagon-vertical-bars", "category": "General" },
+  { "name": "hexagon-vertical-bars-database", "category": "General" },
   {
     "name": "home-filled",
     "terms": ["house"],
@@ -1625,6 +1638,8 @@
     "terms": ["corporate contact", "corporate address"],
     "category": "General"
   },
+  { "name": "hexagon-vertical-bars-filled", "category": "General" },
+  { "name": "hexagon-vertical-bars-database-filled", "category": "General" },
   {
     "name": "clock",
     "terms": ["time"],
@@ -1768,6 +1783,8 @@
     "name": "disable",
     "category": "Multistate"
   },
+  { "name": "circle-add", "category": "Multistate" },
+  { "name": "circle-remove", "category": "Multistate" },
   {
     "name": "occupied",
     "terms": ["taken"],
@@ -2662,6 +2679,7 @@
     "terms": ["file", "data compression"],
     "category": "Tools"
   },
+  { "name": "document-csv", "terms": ["file", "comma separated"], "category": "Tools" },
   {
     "name": "row-add",
     "terms": ["table", "line", "add", "append", "increase"],
@@ -3148,6 +3166,7 @@
     "terms": ["deadlines", "schedule"],
     "category": "Fire"
   },
+  { "name": "list-warning", "category": "Fire" },
   {
     "name": "text-to-speech",
     "terms": ["speech synthesis", "voice synthesis", "audio synthesis"],
@@ -3780,6 +3799,7 @@
     "terms": ["display", "showcasing", "exposition", "presentation", "demonstration"],
     "category": "Building Technologies"
   },
+  { "name": "self-service-kiosk", "terms": ["display"], "category": "Building Technologies" },
   {
     "name": "area-alt",
     "terms": ["region", "space", "section"],
@@ -4012,6 +4032,7 @@
     "terms": ["mobile", "handy"],
     "category": "Device"
   },
+  { "name": "smartphone-checked", "terms": ["mobile", "handy"], "category": "Device" },
   {
     "name": "landscape-to-portrait",
     "terms": ["horizontal to vertical"],
@@ -4476,6 +4497,8 @@
     "name": "medical-gas",
     "category": "Healthcare"
   },
+  { "name": "first-aid", "category": "Healthcare" },
+  { "name": "first-responder", "category": "Healthcare" },
   {
     "name": "3d-fit",
     "category": "3D"
