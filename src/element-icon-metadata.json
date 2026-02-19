@@ -337,6 +337,8 @@
     "terms": ["light bulb", "idea"],
     "category": "Light"
   },
+  { "name": "light-dimmable", "terms": ["light bulb", "dimming"], "category": "Light" },
+  { "name": "light-on-dimmable", "terms": ["light bulb", "dimming"], "category": "Light" },
   {
     "name": "dim-up",
     "terms": ["light bulb"],
@@ -416,6 +418,8 @@
     "terms": ["light bulb", "idea"],
     "category": "Light"
   },
+  { "name": "light-dimmable-filled", "terms": ["light bulb", "dimming"], "category": "Light" },
+  { "name": "light-on-dimmable-filled", "terms": ["light bulb", "dimming"], "category": "Light" },
   {
     "name": "dim-up-filled",
     "terms": ["light bulb"],
@@ -493,6 +497,7 @@
     "category": "Scenes"
   },
   { "name": "desk", "terms": ["office"], "category": "Scenes" },
+  { "name": "desk-booked", "terms": ["office", "desk"], "category": "Scenes" },
   {
     "name": "meeting",
     "terms": ["conference", "collaboration", "teamwork", "group"],
@@ -601,6 +606,7 @@
     "category": "Residential"
   },
   { "name": "childrenroom", "terms": ["nursery"], "category": "Residential" },
+  { "name": "gaming", "terms": ["controller", "games"], "category": "Residential" },
   {
     "name": "control-cabinet",
     "terms": ["equipment room", "utility room"],
@@ -1108,6 +1114,7 @@
     "category": "General"
   },
   { "name": "booked", "category": "General" },
+  { "name": "date-unavailable", "category": "General" },
   { "name": "booking-overview", "category": "General" },
   {
     "name": "address-book",
@@ -2282,6 +2289,10 @@
     "name": "down-4",
     "category": "Arrows"
   },
+  { "name": "arrow-top-left", "category": "Arrows" },
+  { "name": "arrow-top-right", "category": "Arrows" },
+  { "name": "arrow-bottom-left", "category": "Arrows" },
+  { "name": "arrow-bottom-right", "category": "Arrows" },
   {
     "name": "left-4",
     "terms": ["backward"],
@@ -3071,6 +3082,7 @@
     "terms": ["smoke detection", "fire alarm"],
     "category": "Fire"
   },
+  { "name": "fire-sensor-alt", "terms": ["smoke detection", "fire alarm"], "category": "Fire" },
   {
     "name": "detector-sound-plate",
     "terms": ["smoke detection", "fire alarm"],
@@ -3662,6 +3674,8 @@
     "name": "heat-pump",
     "category": "Building Technologies"
   },
+  { "name": "heat-exchanger", "category": "Building Technologies" },
+  { "name": "cooling-tower", "category": "Building Technologies" },
   {
     "name": "floor-heating",
     "category": "Building Technologies"
@@ -3710,6 +3724,7 @@
     "terms": ["moving stairs"],
     "category": "Building Technologies"
   },
+  { "name": "stair", "terms": ["steps", "staircase"], "category": "Building Technologies" },
   {
     "name": "database",
     "category": "Building Technologies"
@@ -3805,6 +3820,16 @@
     "category": "Building Technologies"
   },
   {
+    "name": "bank",
+    "terms": ["financial institution", "credit union", "savings bank"],
+    "category": "Building Technologies"
+  },
+  {
+    "name": "store",
+    "terms": ["retail shop", "shop", "storefront"],
+    "category": "Building Technologies"
+  },
+  {
     "name": "warehouse",
     "terms": ["store room", "depot", " depository"],
     "category": "Building Technologies"
@@ -3814,6 +3839,7 @@
     "terms": ["display", "showcasing", "exposition", "presentation", "demonstration"],
     "category": "Building Technologies"
   },
+  { "name": "floorplan", "terms": ["floor plan", "layout"], "category": "Building Technologies" },
   { "name": "self-service-kiosk", "terms": ["display"], "category": "Building Technologies" },
   {
     "name": "area-alt",
@@ -4514,6 +4540,22 @@
   },
   { "name": "first-aid", "category": "Healthcare" },
   { "name": "first-responder", "category": "Healthcare" },
+  {
+    "name": "harmful-substances",
+    "terms": ["toxic substances", "hazardous materials"],
+    "category": "Healthcare"
+  },
+  {
+    "name": "medical-cross",
+    "terms": ["medical symbol", "hospital symbol"],
+    "category": "Healthcare"
+  },
+  { "name": "dental-care", "terms": ["dentist", "teeth care"], "category": "Healthcare" },
+  {
+    "name": "defibrillator",
+    "terms": ["cardiac defibrillator", "heart defibrillator"],
+    "category": "Healthcare"
+  },
   {
     "name": "3d-fit",
     "category": "3D"
