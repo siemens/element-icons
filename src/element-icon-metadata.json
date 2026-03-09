@@ -208,7 +208,10 @@
     "terms": ["clothing hanger", "foyer", "entrance hall", "hallway", "wardrobe"],
     "category": "Residential"
   },
+  { "name": "man", "terms": ["toilet"], "category": "Residential" },
+  { "name": "woman", "terms": ["toilet"], "category": "Residential" },
   { "name": "restroom", "terms": ["toilet"], "category": "Residential" },
+  { "name": "baby-care", "terms": ["diaper", "changing"], "category": "Residential" },
   { "name": "toilet-paper", "terms": ["toilet"], "category": "Residential" },
   { "name": "winecellar", "terms": ["bottles"], "category": "Residential" },
   { "name": "garden", "terms": ["flower", "plants"], "category": "Residential" },
@@ -388,7 +391,6 @@
   { "name": "box", "category": "General" },
   { "name": "scalability", "category": "General" },
   { "name": "quality", "category": "General" },
-  { "name": "rocket", "category": "General" },
   { "name": "global", "terms": ["worldwide", "international"], "category": "General" },
   { "name": "legal", "category": "General" },
   { "name": "filter", "category": "General" },
@@ -458,10 +460,15 @@
   { "name": "status-manual", "category": "General" },
   { "name": "status-external", "category": "General" },
   { "name": "print", "category": "General" },
+  {
+    "name": "shredder",
+    "terms": ["document destruction", "paper shredding"],
+    "category": "General"
+  },
+  { "name": "copy-machine", "category": "General" },
   { "name": "camera", "terms": ["photograph", "picture"], "category": "General" },
   { "name": "camera-flip", "terms": ["photograph", "picture"], "category": "General" },
   { "name": "shopping-cart", "terms": ["buy"], "category": "General" },
-  { "name": "train", "category": "General" },
   { "name": "factory-reset", "category": "General" },
   { "name": "wiringtest", "category": "General" },
   { "name": "connection-established", "category": "General" },
@@ -479,6 +486,7 @@
   { "name": "merge", "terms": ["join"], "category": "General" },
   { "name": "baseline", "category": "General" },
   { "name": "baseline-mismatch", "category": "General" },
+  { "name": "chip", "terms": ["microchip", "semiconductor"], "category": "General" },
   { "name": "backspace", "terms": ["delete"], "category": "General" },
   { "name": "spacebar", "terms": ["space key", "blank key"], "category": "General" },
   { "name": "keyboard", "category": "General" },
@@ -536,7 +544,6 @@
   { "name": "cloud-connection-lost-filled", "terms": ["remote storage"], "category": "General" },
   { "name": "binary-filled", "terms": ["switch", "toggle", "on/off"], "category": "General" },
   { "name": "chat-filled", "category": "General" },
-  { "name": "rocket-filled", "category": "General" },
   { "name": "global-filled", "terms": ["worldwide", "international"], "category": "General" },
   { "name": "filter-filled", "category": "General" },
   { "name": "key-filled", "category": "General" },
@@ -1240,6 +1247,16 @@
     "category": "Fire"
   },
   { "name": "intrusion-sensor", "terms": ["invasion alarm", "trespass alert"], "category": "Fire" },
+  {
+    "name": "occupancy-sensor",
+    "terms": ["motion detection", "presence detection"],
+    "category": "Fire"
+  },
+  {
+    "name": "occupancy-sensor-off",
+    "terms": ["motion detection", "presence detection"],
+    "category": "Fire"
+  },
   { "name": "burglary", "terms": ["burglary"], "category": "Fire" },
   { "name": "activation", "terms": ["initialization"], "category": "Fire" },
   { "name": "fault", "terms": ["flaw", "defect", "failing", "error"], "category": "Fire" },
@@ -1408,30 +1425,6 @@
   { "name": "inductor-secondary-iso", "category": "Electricity" },
   { "name": "inductor-primary-ansi", "category": "Electricity" },
   { "name": "inductor-secondary-ansi", "category": "Electricity" },
-  {
-    "name": "charging-station",
-    "terms": ["charging base", "charging point"],
-    "category": "Electricity"
-  },
-  {
-    "name": "charging-station-limited",
-    "terms": ["charging base", "charging point"],
-    "category": "Electricity"
-  },
-  {
-    "name": "charging-station-off",
-    "terms": ["charging base", "charging point"],
-    "category": "Electricity"
-  },
-  {
-    "name": "charging-station-multiple",
-    "terms": ["charging base", "charging point"],
-    "category": "Electricity"
-  },
-  { "name": "electric-car", "category": "Electricity" },
-  { "name": "electric-car-off", "category": "Electricity" },
-  { "name": "electric-truck", "category": "Electricity" },
-  { "name": "electric-truck-off", "category": "Electricity" },
   { "name": "contact", "category": "Electricity" },
   { "name": "contact-closed", "category": "Electricity" },
   { "name": "circuit-breaker", "category": "Electricity" },
@@ -1463,11 +1456,6 @@
   {
     "name": "socket-cn-filled",
     "terms": ["outlet", "china", "chinese"],
-    "category": "Electricity"
-  },
-  {
-    "name": "charging-station-filled",
-    "terms": ["charging base", "charging point"],
     "category": "Electricity"
   },
   { "name": "project", "terms": ["plan"], "category": "Building Technologies" },
@@ -1718,6 +1706,83 @@
     "terms": ["constructed", "designed", "arranged"],
     "category": "Building Technologies"
   },
+  { "name": "car", "category": "Transportation" },
+  { "name": "car-parking", "terms": ["parking", "parking lot"], "category": "Transportation" },
+  { "name": "car-wash", "terms": ["car cleaning", "vehicle wash"], "category": "Transportation" },
+  { "name": "car-maintenance", "terms": ["maintenance", "garage"], "category": "Transportation" },
+  { "name": "car-sharing", "terms": ["ride sharing", "carpooling"], "category": "Transportation" },
+  { "name": "electric-car", "category": "Transportation" },
+  { "name": "electric-car-off", "category": "Transportation" },
+  {
+    "name": "charging-station",
+    "terms": ["charging base", "charging point"],
+    "category": "Transportation"
+  },
+  {
+    "name": "charging-station-limited",
+    "terms": ["charging base", "charging point"],
+    "category": "Transportation"
+  },
+  {
+    "name": "charging-station-off",
+    "terms": ["charging base", "charging point"],
+    "category": "Transportation"
+  },
+  {
+    "name": "charging-station-multiple",
+    "terms": ["charging base", "charging point"],
+    "category": "Transportation"
+  },
+  { "name": "truck", "terms": ["freight", "lorry"], "category": "Transportation" },
+  { "name": "electric-truck", "category": "Transportation" },
+  { "name": "electric-truck-off", "category": "Transportation" },
+  {
+    "name": "food-truck",
+    "terms": ["mobile kitchen", "street food"],
+    "category": "Transportation"
+  },
+  { "name": "shuttle", "terms": ["transport", "bus"], "category": "Transportation" },
+  { "name": "bicycle", "terms": ["bike", "cycle"], "category": "Transportation" },
+  {
+    "name": "bicycle-parking",
+    "terms": ["bike parking", "cycle parking"],
+    "category": "Transportation"
+  },
+  {
+    "name": "bicycle-maintenance",
+    "terms": ["bike maintenance", "cycle maintenance"],
+    "category": "Transportation"
+  },
+  { "name": "motorbike", "terms": ["motorcycle", "bike"], "category": "Transportation" },
+  {
+    "name": "motorbike-parking",
+    "terms": ["motorcycle parking", "bike parking"],
+    "category": "Transportation"
+  },
+  { "name": "train", "category": "Transportation" },
+  { "name": "rocket", "category": "Transportation" },
+  {
+    "name": "charging-station-filled",
+    "terms": ["charging base", "charging point"],
+    "category": "Transportation"
+  },
+  { "name": "rocket-filled", "category": "Transportation" },
+  { "name": "locker", "category": "Amenities & Services" },
+  { "name": "storage", "category": "Amenities & Services" },
+  { "name": "apple", "terms": ["fruit", "food"], "category": "Amenities & Services" },
+  { "name": "snacks", "terms": ["snack", "food"], "category": "Amenities & Services" },
+  { "name": "coffee-machine", "terms": ["coffee", "beverage"], "category": "Amenities & Services" },
+  { "name": "kettle", "terms": ["boiling"], "category": "Amenities & Services" },
+  { "name": "water-bottle", "terms": ["hydration", "drink"], "category": "Amenities & Services" },
+  { "name": "coin-slot", "terms": ["coin", "payment"], "category": "Amenities & Services" },
+  { "name": "dry-cleaning", "terms": ["laundry", "cleaning"], "category": "Amenities & Services" },
+  { "name": "yoga", "terms": ["stretching", "meditation"], "category": "Amenities & Services" },
+  { "name": "massage", "terms": ["relaxation", "therapy"], "category": "Amenities & Services" },
+  { "name": "wellness", "terms": ["health", "relaxation"], "category": "Amenities & Services" },
+  { "name": "workout", "terms": ["exercise", "fitness"], "category": "Amenities & Services" },
+  { "name": "volleyball", "terms": ["sport", "game"], "category": "Amenities & Services" },
+  { "name": "basketball", "terms": ["sport", "game"], "category": "Amenities & Services" },
+  { "name": "table-tennis", "terms": ["sport", "game"], "category": "Amenities & Services" },
   {
     "name": "workstation",
     "terms": ["vdu", "visual display unit", "monitor", "console"],
@@ -2038,6 +2103,8 @@
     "terms": ["cardiac defibrillator", "heart defibrillator"],
     "category": "Healthcare"
   },
+  { "name": "band-aid", "terms": ["plaster", "adhesive bandage"], "category": "Healthcare" },
+  { "name": "disinfection", "terms": ["sanitization"], "category": "Healthcare" },
   { "name": "3d-fit", "category": "3D" },
   { "name": "3d-rotate", "category": "3D" },
   { "name": "3d-y-axis", "category": "3D" },
