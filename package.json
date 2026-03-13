@@ -25,6 +25,7 @@
     "codepoints": "node codepoints.js",
     "format": "prettier --log-level warn --write .",
     "lint:format": "prettier --check .",
+    "lint:metadata": "node lint-metadata.js",
     "lint": "eslint ."
   },
   "exports": {
