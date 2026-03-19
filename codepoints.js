@@ -28,6 +28,14 @@ for (const icon of icons) {
   }
 }
 
+const iconSet = new Set(icons);
+for (const key of Object.keys(codepoints)) {
+  if (key.startsWith('#')) continue;
+  if (!iconSet.has(key)) {
+    delete codepoints[key];
+  }
+}
+
 fs.writeFileSync(
   CODEPOINTS_PATH,
   JSON.stringify(codepoints, Object.keys(codepoints).sort(), 2) + '\n'
