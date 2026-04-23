@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/siemens/element-icons/compare/v1.1.0...v1.2.0) (2026-04-23)
+
+
+### Features
+
+* **icons:** new transportation icons added ([04e67e5](https://github.com/siemens/element-icons/commit/04e67e5d6e93d3f9bcd2ef107f4e0def89a8cfcf))
+
 # [1.1.0](https://github.com/siemens/element-icons/compare/v1.0.3...v1.1.0) (2026-02-19)
 
 
