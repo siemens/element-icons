@@ -383,6 +383,7 @@
   { "name": "booking-overview", "category": "General" },
   { "name": "address-book", "terms": ["contacts"], "category": "General" },
   { "name": "language", "category": "General" },
+  { "name": "translate", "terms": ["language", "translation"], "category": "General" },
   { "name": "chat", "category": "General" },
   { "name": "notification", "category": "General" },
   { "name": "notification-off", "category": "General" },
@@ -667,6 +668,7 @@
     "terms": ["misty", "forecast", "weather", "meteorology"],
     "category": "Climate"
   },
+  { "name": "cloudy-night", "terms": ["night", "weather", "meteorology"], "category": "Climate" },
   {
     "name": "rain",
     "terms": ["precipitation", "drizzle", "forecast", "weather", "meteorology"],
@@ -687,6 +689,8 @@
     "terms": ["breeze", "blow", "forecast", "weather", "meteorology"],
     "category": "Climate"
   },
+  { "name": "sunrise", "terms": ["dawn", "morning", "light"], "category": "Climate" },
+  { "name": "sunset", "terms": ["dusk", "evening", "twilight"], "category": "Climate" },
   { "name": "media", "category": "Media" },
   { "name": "multimedia", "category": "Media" },
   {
@@ -1078,6 +1082,7 @@
   { "name": "align-vertical-centers", "category": "Tools" },
   { "name": "align-bottom", "category": "Tools" },
   { "name": "align-center", "category": "Tools" },
+  { "name": "bounding-box", "terms": ["rectangle", "frame", "container"], "category": "Tools" },
   { "name": "expand-all", "terms": ["show", "reveal"], "category": "Tools" },
   { "name": "collapse-all", "terms": ["hide", "conceal"], "category": "Tools" },
   { "name": "angle", "category": "Tools" },
@@ -1484,6 +1489,19 @@
   { "name": "heat-pump", "category": "Building Technologies" },
   { "name": "heat-exchanger", "category": "Building Technologies" },
   { "name": "cooling-tower", "category": "Building Technologies" },
+  { "name": "chiller", "category": "Building Technologies" },
+  { "name": "air-vent", "category": "Building Technologies" },
+  {
+    "name": "boiler",
+    "terms": ["heater", "domestic hot water"],
+    "category": "Building Technologies"
+  },
+  { "name": "district-heating", "category": "Building Technologies" },
+  { "name": "district-cooling", "category": "Building Technologies" },
+  { "name": "district-steam", "category": "Building Technologies" },
+  { "name": "storage-hot-water", "category": "Building Technologies" },
+  { "name": "storage-cold-water", "category": "Building Technologies" },
+  { "name": "storage-steam", "category": "Building Technologies" },
   { "name": "floor-heating", "category": "Building Technologies" },
   { "name": "floor-heating-alt", "category": "Building Technologies" },
   { "name": "vrf", "terms": ["variable refrigerant flow"], "category": "Building Technologies" },
@@ -1658,11 +1676,15 @@
   },
   { "name": "function", "terms": ["operator"], "category": "Building Technologies" },
   { "name": "sum", "terms": ["addition"], "category": "Building Technologies" },
+  { "name": "biomass", "category": "Building Technologies" },
+  { "name": "oil", "category": "Building Technologies" },
+  { "name": "gas", "category": "Building Technologies" },
   { "name": "project-filled", "terms": ["plan"], "category": "Building Technologies" },
   { "name": "building-filled", "category": "Building Technologies" },
   { "name": "floor-filled", "terms": ["level"], "category": "Building Technologies" },
   { "name": "actuator-filled", "category": "Building Technologies" },
   { "name": "automation-station-filled", "category": "Building Technologies" },
+  { "name": "automation-station-s-mode-filled", "category": "Building Technologies" },
   { "name": "valve-filled", "category": "Building Technologies" },
   {
     "name": "group-lead-filled",
