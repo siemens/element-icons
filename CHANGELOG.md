@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/siemens/element-icons/compare/v1.2.0...v1.3.0) (2026-07-08)
+
+
+### Features
+
+* **icons:** new icons added ([08787c1](https://github.com/siemens/element-icons/commit/08787c15999617b44749765e48180d83f9f66194))
+
 # [1.2.0](https://github.com/siemens/element-icons/compare/v1.1.0...v1.2.0) (2026-04-23)
 
 
