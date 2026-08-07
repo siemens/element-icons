@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/siemens/element-icons/compare/v1.3.0...v1.4.0) (2026-08-07)
+
+
+### Features
+
+* **icons:** new save and cloud icons added ([2e18d1e](https://github.com/siemens/element-icons/commit/2e18d1ec1a750db880caf0f80c1526bbca14e0dd))
+
 # [1.3.0](https://github.com/siemens/element-icons/compare/v1.2.0...v1.3.0) (2026-07-08)
 
 
