@@ -6,6 +6,7 @@ import fs from 'fs';
 import path from 'path';
 
 const ICON_PATH = 'assets/icons';
+const CODEPOINTS_PATH = 'assets/element-icon-codepoints.json';
 const METADATA_PATH = 'src/element-icon-metadata.json';
 const fix = process.argv.includes('--fix');
 
@@ -18,6 +19,10 @@ function readIconsFromFs() {
 
 function readMetadata() {
   return JSON.parse(fs.readFileSync(METADATA_PATH, 'utf8'));
+}
+
+function readCodepoints() {
+  return JSON.parse(fs.readFileSync(CODEPOINTS_PATH, 'utf8'));
 }
 
 /**
@@ -41,6 +46,45 @@ function validateMetadataIconsExistInFs(icons, metadata) {
   console.error(
     `Icons "${missing.join('", "')}" are referenced in metadata but don't exist in the file system.`
   );
+  process.exit(1);
+}
+
+/**
+ * Validates that every icon referenced in metadata has a codepoint.
+ * @returns {object[]} metadata
+ */
+function validateMetadataIconsHaveCodepoints(codepoints, metadata) {
+  const missing = metadata.map(m => m.name).filter(name => !(name in codepoints));
+  if (missing.length === 0) return metadata;
+
+  console.error(
+    `Icons "${missing.join('", "')}" are referenced in metadata but have no codepoint.`
+  );
+  process.exit(1);
+}
+
+/**
+ * Validates that every codepoint belongs to an existing SVG icon.
+ * Fix: removes stale codepoint entries.
+ */
+function validateCodepointsExistInFs(icons, codepoints) {
+  const iconSet = new Set(icons);
+  const missing = Object.keys(codepoints).filter(
+    name => !name.startsWith('#') && !iconSet.has(name)
+  );
+  if (missing.length === 0) return;
+
+  if (fix) {
+    console.log(
+      `Fixing: removing ${missing.length} codepoint${missing.length === 1 ? '' : 's'} for non-existent icon${missing.length === 1 ? '' : 's'}: "${missing.join('", "')}"`
+    );
+    for (const name of missing) {
+      delete codepoints[name];
+    }
+    return;
+  }
+
+  console.error(`Codepoints exist for non-existent icons: "${missing.join('", "')}".`);
   process.exit(1);
 }
 
@@ -103,11 +147,15 @@ function validateNoInnerSourceIcons(icons, metadata) {
 
 let icons = readIconsFromFs();
 let metadata = readMetadata();
+const codepoints = readCodepoints();
 
 metadata = validateMetadataIconsExistInFs(icons, metadata);
+metadata = validateMetadataIconsHaveCodepoints(codepoints, metadata);
+validateCodepointsExistInFs(icons, codepoints);
 icons = validateFsIconsExistInMetadata(icons, metadata);
 metadata = validateNoInnerSourceIcons(icons, metadata);
 
 if (fix) {
   fs.writeFileSync(METADATA_PATH, JSON.stringify(metadata));
+  fs.writeFileSync(CODEPOINTS_PATH, JSON.stringify(codepoints, null, 2) + '\n');
 }
