@@ -383,7 +383,7 @@
   { "name": "booking-overview", "category": "General" },
   { "name": "address-book", "terms": ["contacts"], "category": "General" },
   { "name": "language", "category": "General" },
-  { "name": "translate", "terms": ["language", "translation"], "category": "General" },
+  { "name": "translate", "terms": ["translation"], "category": "General" },
   { "name": "chat", "category": "General" },
   { "name": "notification", "category": "General" },
   { "name": "notification-off", "category": "General" },
@@ -449,6 +449,7 @@
   { "name": "horn-off", "terms": ["acoustic signal", "siren"], "category": "General" },
   { "name": "cloud", "terms": ["remote storage"], "category": "General" },
   { "name": "cloud-connection-lost", "terms": ["remote storage"], "category": "General" },
+  { "name": "cloud-synchronize", "terms": ["remote storage"], "category": "General" },
   { "name": "binary", "terms": ["switch", "toggle", "on/off"], "category": "General" },
   { "name": "multistate", "terms": ["selector"], "category": "General" },
   { "name": "analog", "terms": ["signal"], "category": "General" },
@@ -523,6 +524,8 @@
   { "name": "comparison", "category": "General" },
   { "name": "hexagon-vertical-bars", "category": "General" },
   { "name": "hexagon-vertical-bars-database", "category": "General" },
+  { "name": "cloud-project-linked", "category": "General" },
+  { "name": "cloud-project-unlinked", "category": "General" },
   { "name": "home-filled", "terms": ["house"], "category": "General" },
   {
     "name": "parameter-filled",
@@ -668,7 +671,11 @@
     "terms": ["misty", "forecast", "weather", "meteorology"],
     "category": "Climate"
   },
-  { "name": "cloudy-night", "terms": ["night", "weather", "meteorology"], "category": "Climate" },
+  {
+    "name": "cloudy-night",
+    "terms": ["misty", "forecast", "weather", "meteorology"],
+    "category": "Climate"
+  },
   {
     "name": "rain",
     "terms": ["precipitation", "drizzle", "forecast", "weather", "meteorology"],
@@ -689,8 +696,8 @@
     "terms": ["breeze", "blow", "forecast", "weather", "meteorology"],
     "category": "Climate"
   },
-  { "name": "sunrise", "terms": ["dawn", "morning", "light"], "category": "Climate" },
-  { "name": "sunset", "terms": ["dusk", "evening", "twilight"], "category": "Climate" },
+  { "name": "sunrise", "terms": ["dawn", "horizon"], "category": "Climate" },
+  { "name": "sunset", "terms": ["dusk", "horizon"], "category": "Climate" },
   { "name": "media", "category": "Media" },
   { "name": "multimedia", "category": "Media" },
   {
@@ -954,6 +961,8 @@
     "category": "Tools"
   },
   { "name": "save", "terms": ["store", "preserve"], "category": "Tools" },
+  { "name": "save-as", "terms": ["store", "preserve"], "category": "Tools" },
+  { "name": "save-auto", "terms": ["store", "preserve"], "category": "Tools" },
   {
     "name": "delete",
     "terms": ["bin", "trash", "garbage", "waste", "discard", "remove", "dispose"],
@@ -1082,7 +1091,7 @@
   { "name": "align-vertical-centers", "category": "Tools" },
   { "name": "align-bottom", "category": "Tools" },
   { "name": "align-center", "category": "Tools" },
-  { "name": "bounding-box", "terms": ["rectangle", "frame", "container"], "category": "Tools" },
+  { "name": "bounding-box", "category": "Tools" },
   { "name": "expand-all", "terms": ["show", "reveal"], "category": "Tools" },
   { "name": "collapse-all", "terms": ["hide", "conceal"], "category": "Tools" },
   { "name": "angle", "category": "Tools" },
@@ -1490,12 +1499,8 @@
   { "name": "heat-exchanger", "category": "Building Technologies" },
   { "name": "cooling-tower", "category": "Building Technologies" },
   { "name": "chiller", "category": "Building Technologies" },
+  { "name": "boiler", "category": "Building Technologies" },
   { "name": "air-vent", "category": "Building Technologies" },
-  {
-    "name": "boiler",
-    "terms": ["heater", "domestic hot water"],
-    "category": "Building Technologies"
-  },
   { "name": "district-heating", "category": "Building Technologies" },
   { "name": "district-cooling", "category": "Building Technologies" },
   { "name": "district-steam", "category": "Building Technologies" },
@@ -1581,6 +1586,13 @@
     "terms": ["electricity", "gas", "sewage water"],
     "category": "Building Technologies"
   },
+  { "name": "oil", "terms": ["petroleum", "fuel"], "category": "Building Technologies" },
+  {
+    "name": "biomass",
+    "terms": ["organic matter", "plant material"],
+    "category": "Building Technologies"
+  },
+  { "name": "gas", "terms": ["natural gas", "propane"], "category": "Building Technologies" },
   {
     "name": "bank",
     "terms": ["financial institution", "credit union", "savings bank"],
@@ -1676,9 +1688,6 @@
   },
   { "name": "function", "terms": ["operator"], "category": "Building Technologies" },
   { "name": "sum", "terms": ["addition"], "category": "Building Technologies" },
-  { "name": "biomass", "category": "Building Technologies" },
-  { "name": "oil", "category": "Building Technologies" },
-  { "name": "gas", "category": "Building Technologies" },
   { "name": "project-filled", "terms": ["plan"], "category": "Building Technologies" },
   { "name": "building-filled", "category": "Building Technologies" },
   { "name": "floor-filled", "terms": ["level"], "category": "Building Technologies" },
