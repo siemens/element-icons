@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/siemens/element-icons/compare/v1.4.0...v1.4.1) (2026-08-11)
+
+
+### Bug Fixes
+
+* restore CSS version header ([62ee5eb](https://github.com/siemens/element-icons/commit/62ee5eba527fade7a80229925ea1a87746737e47))
+
 # [1.4.0](https://github.com/siemens/element-icons/compare/v1.3.0...v1.4.0) (2026-08-07)
 
 
