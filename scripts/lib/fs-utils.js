@@ -6,7 +6,7 @@ import path from 'node:path';
 
 import fs from 'node:fs/promises';
 import { createWriteStream } from 'node:fs';
-import archiver from 'archiver';
+import { ZipArchive } from 'archiver';
 
 export async function ensureDir(dirPath) {
   await fs.mkdir(dirPath, { recursive: true });
@@ -14,7 +14,7 @@ export async function ensureDir(dirPath) {
 
 export async function createZip(zipPath, files) {
   await ensureDir(path.dirname(zipPath));
-  const archive = archiver('zip', { zlib: { level: 9 } });
+  const archive = new ZipArchive({ zlib: { level: 9 } });
   const output = createWriteStream(zipPath);
 
   const finalized = new Promise((resolve, reject) => {
@@ -33,7 +33,7 @@ export async function createZip(zipPath, files) {
 
 export async function createZipFromDist(zipPath, distRoot, ignorePatterns = []) {
   await ensureDir(path.dirname(zipPath));
-  const archive = archiver('zip', { zlib: { level: 9 } });
+  const archive = new ZipArchive({ zlib: { level: 9 } });
   const output = createWriteStream(zipPath);
 
   const finalized = new Promise((resolve, reject) => {

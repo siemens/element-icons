@@ -46,7 +46,7 @@
     "@semantic-release/npm": "13.1.5",
     "@semantic-release/release-notes-generator": "14.1.1",
     "@siemens/prettier-config": "5.0.0",
-    "archiver": "7.0.1",
+    "archiver": "8.0.0",
     "cheerio": "1.2.0",
     "esbuild": "0.28.2",
     "eslint": "10.8.1",
