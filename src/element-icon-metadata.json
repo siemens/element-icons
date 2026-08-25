@@ -526,6 +526,7 @@
   { "name": "hexagon-vertical-bars-database", "category": "General" },
   { "name": "cloud-project-linked", "category": "General" },
   { "name": "cloud-project-unlinked", "category": "General" },
+  { "name": "puzzle", "category": "General" },
   { "name": "home-filled", "terms": ["house"], "category": "General" },
   {
     "name": "parameter-filled",
@@ -592,6 +593,7 @@
   },
   { "name": "hexagon-vertical-bars-filled", "category": "General" },
   { "name": "hexagon-vertical-bars-database-filled", "category": "General" },
+  { "name": "puzzle-filled", "category": "General" },
   { "name": "clock", "terms": ["time"], "tags": ["auto"], "category": "Operating mode" },
   { "name": "sun", "terms": ["light", "day"], "tags": ["comfort"], "category": "Operating mode" },
   { "name": "precomfort", "category": "Operating mode" },
@@ -1593,6 +1595,11 @@
     "category": "Building Technologies"
   },
   { "name": "gas", "terms": ["natural gas", "propane"], "category": "Building Technologies" },
+  {
+    "name": "gas-meter",
+    "terms": ["natural gas", "propane", "meter"],
+    "category": "Building Technologies"
+  },
   {
     "name": "bank",
     "terms": ["financial institution", "credit union", "savings bank"],
