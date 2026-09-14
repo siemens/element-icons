@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/siemens/element-icons/compare/v1.4.1...v1.5.0) (2026-09-14)
+
+
+### Features
+
+* **icons:** add latest open-source icons ([18fc5be](https://github.com/siemens/element-icons/commit/18fc5beef9019e0534a2d825cff56d53af35541c))
+* **icons:** add puzzle and gas-meter ([4ecae1d](https://github.com/siemens/element-icons/commit/4ecae1d1cc703c9d59883b753b7474fa462a0f16))
+
 ## [1.4.1](https://github.com/siemens/element-icons/compare/v1.4.0...v1.4.1) (2026-08-11)
 
 
