@@ -1,5 +1,8 @@
 [
   { "name": "ai", "terms": ["artificial intelligence"], "category": "AI" },
+  { "name": "ai-agent", "category": "AI" },
+  { "name": "ai-sub-agent", "category": "AI" },
+  { "name": "ai-skill", "category": "AI" },
   {
     "name": "bot",
     "terms": [
@@ -477,6 +480,7 @@
   { "name": "connection-lost", "category": "General" },
   { "name": "connected", "terms": ["linked", "coupled"], "category": "General" },
   { "name": "disconnected", "terms": ["linked", "coupled"], "category": "General" },
+  { "name": "buffer-overflow", "terms": ["stack overflow"], "category": "General" },
   { "name": "programmode", "category": "General" },
   { "name": "code", "terms": ["coding", "programming"], "category": "General" },
   { "name": "code-working", "terms": ["coding", "programming"], "category": "General" },
@@ -824,6 +828,7 @@
     "terms": ["person", "profile", "account", "customer", "consumer", "initialize", "initiate"],
     "category": "User"
   },
+  { "name": "alien", "terms": ["extraterrestrial"], "category": "User" },
   { "name": "account-filled", "terms": ["person", "profile", "user"], "category": "User" },
   { "name": "badge-filled", "terms": ["identification"], "category": "User" },
   {
@@ -836,6 +841,7 @@
     "terms": ["customers", "consumers", "person", "people"],
     "category": "User"
   },
+  { "name": "alien-filled", "terms": ["extraterrestrial"], "category": "User" },
   { "name": "up-1", "category": "Arrows" },
   { "name": "down-1", "category": "Arrows" },
   { "name": "left-1", "terms": ["backward"], "category": "Arrows" },
@@ -1121,6 +1127,12 @@
     "terms": ["statistics", "trend", "prediction", "analysis"],
     "category": "Tools"
   },
+  { "name": "polygon", "terms": ["shape", "geometry", "sides"], "category": "Tools" },
+  {
+    "name": "project-simulation",
+    "terms": ["simulation", "modeling", "projection"],
+    "category": "Tools"
+  },
   { "name": "reply-filled", "terms": ["answer", "respond", "react", "left"], "category": "Tools" },
   { "name": "forward-filled", "terms": ["next", "right", "advance"], "category": "Tools" },
   { "name": "ok-filled", "terms": ["successful", "tick", "good", "apply"], "category": "Tools" },
@@ -1220,6 +1232,7 @@
     "terms": ["alter", "edit", "modify", "position", "place"],
     "category": "Map"
   },
+  { "name": "map", "category": "Map" },
   { "name": "map-arrow", "terms": ["paper airplane", "chart"], "category": "Map" },
   { "name": "map-arrow-not-available", "terms": ["paper airplane", "chart"], "category": "Map" },
   { "name": "locate", "terms": ["position", "place"], "category": "Map" },
@@ -1799,6 +1812,11 @@
   },
   { "name": "train", "category": "Transportation" },
   { "name": "rocket", "category": "Transportation" },
+  {
+    "name": "uap",
+    "terms": ["unidentified anomalous phenomena", "ufo", "unidentified flying object"],
+    "category": "Transportation"
+  },
   {
     "name": "charging-station-filled",
     "terms": ["charging base", "charging point"],
