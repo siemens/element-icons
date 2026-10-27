@@ -495,6 +495,7 @@
   { "name": "chip", "terms": ["microchip", "semiconductor"], "category": "General" },
   { "name": "backspace", "terms": ["delete"], "category": "General" },
   { "name": "spacebar", "terms": ["space key", "blank key"], "category": "General" },
+  { "name": "enter", "terms": ["return", "newline"], "category": "General" },
   { "name": "keyboard", "category": "General" },
   { "name": "inputfield", "category": "General" },
   {
@@ -1092,6 +1093,10 @@
   { "name": "hide", "terms": ["invisible", "eye", "conceal", "mask"], "category": "Tools" },
   { "name": "sort-up", "terms": ["order", "ascending", "rising"], "category": "Tools" },
   { "name": "sort-down", "terms": ["order", "descending", "falling"], "category": "Tools" },
+  { "name": "text-align-left", "category": "Tools" },
+  { "name": "text-align-center", "category": "Tools" },
+  { "name": "text-align-right", "category": "Tools" },
+  { "name": "text-align-justified", "category": "Tools" },
   { "name": "align-left", "category": "Tools" },
   { "name": "align-horizontal-centers", "category": "Tools" },
   { "name": "align-right", "category": "Tools" },
@@ -1127,6 +1132,9 @@
     "terms": ["statistics", "trend", "prediction", "analysis"],
     "category": "Tools"
   },
+  { "name": "text", "terms": ["text", "type", "write"], "category": "Tools" },
+  { "name": "ink-pen", "terms": ["pen", "draw", "write"], "category": "Tools" },
+  { "name": "line", "terms": ["stroke", "path", "draw"], "category": "Tools" },
   { "name": "polygon", "terms": ["shape", "geometry", "sides"], "category": "Tools" },
   {
     "name": "project-simulation",
@@ -1224,6 +1232,7 @@
     "terms": ["table", "column", "drag", "paste", "drop"],
     "category": "Tools"
   },
+  { "name": "ink-pen-filled", "terms": ["pen", "draw", "write"], "category": "Tools" },
   { "name": "location", "terms": ["position", "place"], "category": "Map" },
   { "name": "geofence", "terms": ["position", "place", "perimeter"], "category": "Map" },
   { "name": "map-location", "terms": ["position", "place", "chart"], "category": "Map" },
