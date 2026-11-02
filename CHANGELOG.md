@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/siemens/element-icons/compare/v1.6.0...v1.7.0) (2026-11-02)
+
+
+### Features
+
+* **icons:** add building-part, plant-part and project-part ([d7a2cad](https://github.com/siemens/element-icons/commit/d7a2cadcad85c865a93261d7289c3175714d1628))
+
 # [1.6.0](https://github.com/siemens/element-icons/compare/v1.5.0...v1.6.0) (2026-10-27)
 
 
